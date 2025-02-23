@@ -1,164 +1,314 @@
 const questions = [
-    {
-      "question": "What does cognitive dissonance refer to?",
-      "options": ["Mental discomfort from conflicting beliefs and behaviors", "A form of memory loss", "The tendency to conform to a group", "A strategy for conflict resolution"],
-      "answer": "Mental discomfort from conflicting beliefs and behaviors"
-    },
-    {
-      "question": "Which of the following is an example of cognitive dissonance?",
-      "options": ["Believing smoking is bad but still smoking", "Choosing a product because it is on sale", "Agreeing with others in a group", "Making a decision based on facts alone"],
-      "answer": "Believing smoking is bad but still smoking"
-    },
-    {
-      "question": "What is the concept behind Festinger's cognitive dissonance theory?",
-      "options": ["People avoid information that challenges their beliefs", "People seek consistency between their beliefs and actions", "People automatically conform to others", "People always justify their actions without thought"],
-      "answer": "People seek consistency between their beliefs and actions"
-    },
-    {
-      "question": "In which study did participants rate appliances higher after choosing them?",
-      "options": ["Brehm (1956)", "Asch (1951)", "Sherif (1936)", "Norton (2012)"],
-      "answer": "Brehm (1956)"
-    },
-    {
-      "question": "Which study demonstrated the concept of insufficient justification?",
-      "options": ["Festinger (1959)", "Norton (2012)", "Aronson (1963)", "LaPiere (1932)"],
-      "answer": "Festinger (1959)"
-    },
-    {
-      "question": "What is an example of the self-affirmation theory?",
-      "options": ["Complaining about your behavior but doing nothing about it", "Reassuring yourself of your worth by focusing on your strengths", "Denying personal mistakes to reduce discomfort", "Reframing your behavior as part of who you are"],
-      "answer": "Reassuring yourself of your worth by focusing on your strengths"
-    },
-    {
-      "question": "What does the self-evaluation maintenance theory explain?",
-      "options": ["Why we try to outperform others", "Why we avoid situations that challenge our self-esteem", "Why we are motivated to help others", "Why we engage in group behavior"],
-      "answer": "Why we avoid situations that challenge our self-esteem"
-    },
-    {
-      "question": "Which of the following describes the Theory of Planned Behavior?",
-      "options": ["Attitudes are always strong predictors of behavior", "Behavior is influenced by attitudes, subjective norms, and perceived control", "Behavior is entirely unconscious", "Only the attitude toward behavior matters for decision-making"],
-      "answer": "Behavior is influenced by attitudes, subjective norms, and perceived control"
-    },
-    {
-      "question": "What does the elaboration likelihood model propose?",
-      "options": ["There is only one route to persuasion", "Attitudes cannot change once they are formed", "Persuasion occurs through central or peripheral routes", "People never change their attitudes through persuasion"],
-      "answer": "Persuasion occurs through central or peripheral routes"
-    },
-    {
-      "question": "Which type of attitude involves thoughtful, detailed consideration of the information?",
-      "options": ["Peripheral route", "Central route", "Implicit attitude", "Explicit attitude"],
-      "answer": "Central route"
-    },
-    {
-      "question": "Which of these is an example of normative social influence?",
-      "options": ["Conforming to a group to avoid conflict", "Changing your behavior because you believe others are right", "Adopting an attitude based on your own experiences", "Making decisions in isolation"],
-      "answer": "Conforming to a group to avoid conflict"
-    },
-    {
-      "question": "What was the main finding of Asch’s Line Judgment study?",
-      "options": ["People conform to group pressure even when the group is wrong", "People rarely conform in ambiguous situations", "People are more likely to rebel than conform", "People conform only when they agree with the group’s opinion"],
-      "answer": "People conform to group pressure even when the group is wrong"
-    },
-    {
-      "question": "Which of these is a method of influencing behavior by asking for a small request first?",
-      "options": ["Foot-in-the-door", "Door-in-the-face", "Normative influence", "Central route"],
-      "answer": "Foot-in-the-door"
-    },
-    {
-      "question": "What does the door-in-the-face technique involve?",
-      "options": ["Starting with a large request followed by a smaller one", "Asking for a small request first", "Applying consistent pressure", "Providing rewards after a request"],
-      "answer": "Starting with a large request followed by a smaller one"
-    },
-    {
-      "question": "What is groupthink?",
-      "options": ["Group members prioritize harmony over accuracy in decision-making", "Groups always make better decisions than individuals", "People in groups are always more rational", "Group members work independently on decisions"],
-      "answer": "Group members prioritize harmony over accuracy in decision-making"
-    },
-    {
-      "question": "Which of the following describes social loafing?",
-      "options": ["People exert less effort when working in a group", "People perform better when working in groups", "People are more likely to conform to the majority", "People perform worse when working alone"],
-      "answer": "People exert less effort when working in a group"
-    },
-    {
-      "question": "What does deindividuation refer to?",
-      "options": ["The process of becoming more self-aware in groups", "A loss of self-awareness and personal responsibility in groups", "The tendency to avoid group decision-making", "The process of enforcing social norms"],
-      "answer": "A loss of self-awareness and personal responsibility in groups"
-    },
-    {
-      "question": "Which is a key factor in attraction according to social psychology?",
-      "options": ["Proximity", "Conformity", "Self-esteem", "Stress level"],
-      "answer": "Proximity"
-    },
-    {
-      "question": "Which of the following is an example of the halo effect?",
-      "options": ["Attractiveness influencing judgments of other qualities", "Negative feedback causing self-doubt", "Focusing only on negative aspects of a situation", "Believing a person is always wrong because of one mistake"],
-      "answer": "Attractiveness influencing judgments of other qualities"
-    },
-    {
-      "question": "What does similarity in attraction refer to?",
-      "options": ["The idea that opposites attract", "The tendency to be attracted to people with similar attitudes and interests", "The attraction between people from different cultures", "The belief that attraction is determined by shared experiences"],
-      "answer": "The tendency to be attracted to people with similar attitudes and interests"
-    },
-    {
-      "question": "What type of love is characterized by deep friendship and mutual respect?",
-      "options": ["Companionate love", "Passionate love", "Romantic love", "Infatuation"],
-      "answer": "Companionate love"
-    },
-    {
-      "question": "Which of the following is an example of passionate love?",
-      "options": ["Intense feelings of attraction and desire", "Deep mutual respect and understanding", "Love based on shared experiences", "Love that develops over a long period"],
-      "answer": "Intense feelings of attraction and desire"
-    },
-    {
-      "question": "What was the purpose of the Stanford Prison Experiment?",
-      "options": ["To explore group dynamics and decision-making", "To study the effects of role assignment in a simulated prison environment", "To measure people's resistance to authority", "To observe the impact of physical punishment in prisons"],
-      "answer": "To study the effects of role assignment in a simulated prison environment"
-    },
-    {
-      "question": "Which study is associated with the finding that people obey authority even when it involves harming others?",
-      "options": ["Milgram's obedience study", "Asch's conformity study", "Zimbardo's prison experiment", "Sherif's Robbers Cave experiment"],
-      "answer": "Milgram's obedience study"
-    },
-    {
-      "question": "What is the concept of social facilitation?",
-      "options": ["Improved performance on simple tasks in the presence of others", "Decreased performance in groups", "The tendency to seek out new environments", "The process of avoiding group conflict"],
-      "answer": "Improved performance on simple tasks in the presence of others"
-    },
-    {
-      "question": "What is the main reason for social loafing?",
-      "options": ["People think others will do the work", "People prefer individual tasks", "People enjoy competition", "People work better when they are alone"],
-      "answer": "People think others will do the work"
-    },
-    {
-      "question": "Which of the following is an example of implicit attitude?",
-      "options": ["Unconscious bias toward a particular group", "A consciously expressed opinion", "A behavior you are aware of", "An attitude you articulate openly"],
-      "answer": "Unconscious bias toward a particular group"
-    },
-    {
-      "question": "Which theory suggests that we form attitudes by observing our own behaviors?",
-      "options": ["Self-Perception Theory", "Theory of Planned Behavior", "Cognitive Dissonance Theory", "Self-Affirmation Theory"],
-      "answer": "Self-Perception Theory"
-    },
-    {
-      "question": "What does the theory of planned behavior emphasize as influencing behavior?",
-      "options": ["Attitudes, subjective norms, and perceived control", "Implicit beliefs and automatic responses", "Cognitive dissonance and behavioral change", "Conformity to social standards"],
-      "answer": "Attitudes, subjective norms, and perceived control"
-    },
-    {
-      "question": "What is an example of the foot-in-the-door technique?",
-      "options": ["First asking someone for a small favor, then a larger one", "Making a large request that is likely to be refused", "Asking for help only when absolutely necessary", "Building trust by providing rewards"],
-      "answer": "First asking someone for a small favor, then a larger one"
-    },
-    {
-      "question": "What does the peripheral route to persuasion involve?",
-      "options": ["Being persuaded by superficial cues like attractiveness", "Making decisions based on careful, logical thought", "Examining the pros and cons of a choice", "Reaching decisions based on factual information"],
-      "answer": "Being persuaded by superficial cues like attractiveness"
-    },
-    {
-      "question": "Which of these best describes the concept of group polarization?",
-      "options": ["The tendency for groups to make more extreme decisions after discussion", "The tendency to seek out social approval", "The reduction in effort in group settings", "The tendency to avoid risky decisions in groups"],
-      "answer": "The tendency for groups to make more extreme decisions after discussion"
-    }
+  // Chapter 6
+  {
+    question: "Which strategy is used to reduce cognitive dissonance when a smoker justifies smoking as a stress reliever?",
+    options: ["Changing behavior", "Changing cognition", "Adding consonant cognitions", "Denying responsibility"],
+    answer: "Changing cognition",
+    chapter: 6
+  },
+  {
+    question: "The 'IKEA Effect' (Norton et al., 2012) demonstrates which principle of cognitive dissonance?",
+    options: ["Insufficient justification", "Post-decision dissonance", "Justification of effort", "Self-persuasion"],
+    answer: "Justification of effort",
+    chapter: 6
+  },
+  {
+    question: "In Festinger & Carlsmith’s (1959) study, participants paid $1 to lie about a task later rated it as enjoyable. This illustrates:",
+    options: ["Self-affirmation theory", "Insufficient justification", "Post-decision dissonance", "Effort justification"],
+    answer: "Insufficient justification",
+    chapter: 6
+  },
+  {
+    question: "Brehm’s (1956) appliance study found that after choosing between two items, participants:",
+    options: ["Felt regret", "Upgraded the chosen item and downgraded the rejected one", "Avoided re-evaluating their choices", "Preferred cheaper options"],
+    answer: "Upgraded the chosen item and downgraded the rejected one",
+    chapter: 6
+  },
+  {
+    question: "What did Knox & Inkster’s (1968) horse betting study show about post-decision dissonance?",
+    options: ["Bettors became less confident after placing bets", "Bettors increased confidence after committing to a choice", "Bettors avoided risky decisions", "Bettors preferred non-monetary rewards"],
+    answer: "Bettors increased confidence after committing to a choice",
+    chapter: 6
+  },
+  {
+    question: "According to cross-cultural studies (Akai, 1999; Imada, 2010), collectivist cultures primarily experience dissonance when:",
+    options: ["Personal beliefs conflict", "Social harmony is disrupted", "Financial losses occur", "Individual goals are unmet"],
+    answer: "Social harmony is disrupted",
+    chapter: 6
+  },
+  {
+    question: "In Aronson & Carlsmith’s (1963) forbidden toy experiment, children under mild threat devalued the toy. This supports:",
+    options: ["Self-persuasion via insufficient punishment", "Justification of effort", "Post-decision dissonance", "Hypocrisy induction"],
+    answer: "Self-persuasion via insufficient punishment",
+    chapter: 6
+  },
+  {
+    question: "Self-Affirmation Theory (Steele, 1986) suggests dissonance can be reduced by:",
+    options: ["Changing one’s behavior", "Affirming unrelated personal values", "Denying conflicting beliefs", "Seeking social approval"],
+    answer: "Affirming unrelated personal values",
+    chapter: 6
+  },
+  {
+    question: "The Coin Flip Study found that participants often:",
+    options: ["Followed the coin’s result strictly", "Rationalized self-serving choices despite the coin’s outcome", "Avoided making decisions", "Preferred random outcomes"],
+    answer: "Rationalized self-serving choices despite the coin’s outcome",
+    chapter: 6
+  },
+  {
+    question: "In Berscheid et al.’s (1968) shock study, participants reduced dissonance by:",
+    options: ["Apologizing to the experimenter", "Devaluing the experimenter", "Changing their attitudes about shocks", "Refusing to participate"],
+    answer: "Devaluing the experimenter",
+    chapter: 6
+  },
+  // Chapter 7
+  {
+    question: "Which study demonstrated a disconnect between expressed attitudes and actual behavior by showing establishments served a Chinese couple despite survey refusals?",
+    options: ["LaPiere (1932)", "Davidson & Jaccard (1979)", "Han & Shavitt (1994)", "Greenwald (1991)"],
+    answer: "LaPiere (1932)",
+    chapter: 7
+  },
+  {
+    question: "The Theory of Planned Behavior (Ajzen, 1991) includes all the following components EXCEPT:",
+    options: ["Subjective norms", "Perceived behavioral control", "Implicit attitudes", "Attitudes toward the behavior"],
+    answer: "Implicit attitudes",
+    chapter: 7
+  },
+  {
+    question: "Which model distinguishes between the central route (careful analysis) and peripheral route (superficial cues) of persuasion?",
+    options: ["Yale Attitude Change Approach", "Elaboration Likelihood Model", "Heuristic-Systematic Model", "Reactance Theory"],
+    answer: "Elaboration Likelihood Model",
+    chapter: 7
+  },
+  {
+    question: "Brinol & Petty (2012) found that nodding while listening to a message increased agreement. This illustrates:",
+    options: ["Subliminal influence", "Physical influence on attitude change", "Fear-arousing communication", "Attitude inoculation"],
+    answer: "Physical influence on attitude change",
+    chapter: 7
+  },
+  {
+    question: "Reactance Theory (Pennebaker & Sanders, 1976) predicts that prohibiting behavior leads to:",
+    options: ["Increased compliance", "Reduced dissonance", "Increased defiance", "Attitude alignment"],
+    answer: "Increased defiance",
+    chapter: 7
+  },
+  // Chapter 7
+  {
+    question: "Which component of attitudes involves unconscious, automatic associations?",
+    options: ["Cognitive", "Affective", "Implicit", "Explicit"],
+    answer: "Implicit",
+    chapter: 7
+  },
+  {
+    question: "Leventhal’s (1967) fear-arousing communication study found the most effective anti-smoking messages combined:",
+    options: ["Humor and logic", "Graphic images and instructions to quit", "Celebrity endorsements", "Subliminal cues"],
+    answer: "Graphic images and instructions to quit",
+    chapter: 7
+  },
+  {
+    question: "Han & Shavitt’s (1994) study on cultural advertising found that Korean ads emphasized:",
+    options: ["Independence", "Interdependence", "Fear appeals", "Physical attractiveness"],
+    answer: "Interdependence",
+    chapter: 7
+  },
+  {
+    question: "The Heuristic-Systematic Model distinguishes between:",
+    options: ["Central and peripheral processing", "Deep and shallow thinking", "Systematic processing and mental shortcuts", "Fear and humor appeals"],
+    answer: "Systematic processing and mental shortcuts",
+    chapter: 7
+  },
+  {
+    question: "Karremans (2006) demonstrated that subliminal exposure to 'Lipton Ice' influenced:",
+    options: ["Political attitudes", "Brand preferences", "Emotional reactions", "Ethical judgments"],
+    answer: "Brand preferences",
+    chapter: 7
+  },
+  // Chapter 8
+  {
+    question: "In Sherif’s (1936) autokinetic effect study, participants conformed to group norms due to:",
+    options: ["Normative influence", "Informational influence", "Authority pressure", "Physical arousal"],
+    answer: "Informational influence",
+    chapter: 8
+  },
+  {
+    question: "Which factor reduces conformity in Asch’s line judgment experiment?",
+    options: ["Ambiguity of the task", "Presence of an ally", "Larger group size", "High stakes"],
+    answer: "Presence of an ally",
+    chapter: 8
+  },
+  {
+    question: "According to Bond & Smith (1996), which cultures exhibit higher conformity rates?",
+    options: ["Individualist cultures", "Collectivist cultures", "Egalitarian cultures", "Secular cultures"],
+    answer: "Collectivist cultures",
+    chapter: 8
+  },
+  {
+    question: "Milgram’s (1963) obedience study found that approximately what percentage of participants administered the maximum shock?",
+    options: ["35%", "50%", "65%", "80%"],
+    answer: "65%",
+    chapter: 8
+  },
+  {
+    question: "The Door-in-the-Face technique works due to:",
+    options: ["Self-perception", "Reciprocity and contrast effects", "Fear arousal", "Minority influence"],
+    answer: "Reciprocity and contrast effects",
+    chapter: 8
+  },
+  // Chapter 8
+  {
+    question: "According to Latané’s Social Impact Theory, conformity increases with greater:",
+    options: ["Group diversity", "Physical distance from the group", "Group strength and immediacy", "Task complexity"],
+    answer: "Group strength and immediacy",
+    chapter: 8
+  },
+  {
+    question: "Wood et al. (1994) showed that minority influence is most effective when the minority is:",
+    options: ["Aggressive", "Inconsistent", "Consistent", "Anonymous"],
+    answer: "Consistent",
+    chapter: 8
+  },
+  {
+    question: "Schultz et al. (2007) found that people adjusted energy use to match social norms, illustrating:",
+    options: ["Normative influence", "Informational influence", "Deindividuation", "Reactance"],
+    answer: "Normative influence",
+    chapter: 8
+  },
+  {
+    question: "The Foot-in-the-Door technique relies on which psychological principle?",
+    options: ["Reciprocity", "Self-perception and commitment", "Fear arousal", "Authority pressure"],
+    answer: "Self-perception and commitment",
+    chapter: 8
+  },
+  {
+    question: "Burger’s (2009) replication of Milgram’s study found obedience levels:",
+    options: ["Lower than Milgram’s", "Higher than Milgram’s", "Similar to Milgram’s", "Nonexistent due to ethics"],
+    answer: "Similar to Milgram’s",
+    chapter: 8
+  },
+  // Chapter 9
+  {
+    question: "Zajonc’s (1969) study on cockroaches demonstrated that social facilitation improves performance on:",
+    options: ["Complex tasks", "Novel tasks", "Simple tasks", "Groupthink scenarios"],
+    answer: "Simple tasks",
+    chapter: 9
+  },
+  {
+    question: "Groupthink is exemplified by which real-world event?",
+    options: ["Challenger Explosion", "Milgram’s obedience study", "IKEA Effect", "Prisoner’s Dilemma"],
+    answer: "Challenger Explosion",
+    chapter: 9
+  },
+  {
+    question: "Which leadership style focuses on inspiring change through vision and motivation?",
+    options: ["Transactional", "Transformational", "Task-oriented", "Relationship-oriented"],
+    answer: "Transformational",
+    chapter: 9
+  },
+  {
+    question: "The 'glass cliff' refers to:",
+    options: ["Barriers to leadership for women", "Women being appointed to leadership roles in crises", "Social loafing in diverse groups", "Deindividuation in anonymous settings"],
+    answer: "Women being appointed to leadership roles in crises",
+    chapter: 9
+  },
+  {
+    question: "In the Prisoner’s Dilemma, cooperation is most likely when:",
+    options: ["Trust is absent", "Communication is prohibited", "Repeated interactions occur", "Self-interest dominates"],
+    answer: "Repeated interactions occur",
+    chapter: 9
+  },
+  // Chapter 9
+  {
+    question: "Deindividuation, as seen in the KKK cloak study, is linked to:",
+    options: ["Enhanced critical thinking", "Increased accountability", "Reduced self-awareness", "Social facilitation"],
+    answer: "Reduced self-awareness",
+    chapter: 9
+  },
+  {
+    question: "Ringelmann’s (1913) rope-pulling study demonstrated the concept of:",
+    options: ["Group polarization", "Social loafing", "Transactional leadership", "Transactive memory"],
+    answer: "Social loafing",
+    chapter: 9
+  },
+  {
+    question: "McLeod’s (1996) study on group diversity found that homogeneous groups reported:",
+    options: ["Lower creativity", "Higher satisfaction", "Greater conflict", "Stronger leadership"],
+    answer: "Higher satisfaction",
+    chapter: 9
+  },
+  {
+    question: "Group polarization refers to the tendency for group discussions to:",
+    options: ["Suppress minority opinions", "Intensify pre-existing attitudes", "Encourage conformity", "Reduce social loafing"],
+    answer: "Intensify pre-existing attitudes",
+    chapter: 9
+  },
+  {
+    question: "The Contingency Theory of Leadership suggests task-oriented leaders excel in:",
+    options: ["Moderate-control situations", "High- or low-control extremes", "Crisis-free environments", "Diverse groups"],
+    answer: "High- or low-control extremes",
+    chapter: 9
+  },
+  // Chapter 10
+  {
+    question: "The Mere Exposure Effect suggests that attraction increases with:",
+    options: ["Physical proximity", "Shared experiences", "Repeated exposure", "Reciprocal liking"],
+    answer: "Repeated exposure",
+    chapter: 10
+  },
+  {
+    question: "Walster’s (1966) blind date study found that the best predictor of a second date was:",
+    options: ["Similarity", "Physical attractiveness", "Reciprocal liking", "Shared values"],
+    answer: "Physical attractiveness",
+    chapter: 10
+  },
+  {
+    question: "Which attachment style is characterized by fear of abandonment?",
+    options: ["Secure", "Avoidant", "Anxious-Ambivalent", "Communal"],
+    answer: "Anxious-Ambivalent",
+    chapter: 10
+  },
+  {
+    question: "According to Equity Theory, relationships thrive when:",
+    options: ["Rewards exceed costs", "Both partners contribute equally", "Physical attraction is high", "Communication is minimal"],
+    answer: "Both partners contribute equally",
+    chapter: 10
+  },
+  {
+    question: "Meston’s (2003) rollercoaster study demonstrated that arousal can:",
+    options: ["Reduce social loafing", "Enhance companionate love", "Increase attraction", "Trigger deindividuation"],
+    answer: "Increase attraction",
+    chapter: 10
+  },
+  // Chapter 10
+  {
+    question: "The Propinquity Effect states that attraction increases with:",
+    options: ["Similarity", "Physical proximity", "Reciprocal liking", "Shared experiences"],
+    answer: "Physical proximity",
+    chapter: 10
+  },
+  {
+    question: "Reciprocal liking refers to the tendency to:",
+    options: ["Value equity in relationships", "Like those who like us", "Prefer attractive partners", "Avoid communal relationships"],
+    answer: "Like those who like us",
+    chapter: 10
+  },
+  {
+    question: "Finkel’s (2009) speed-dating study supported evolutionary theories by showing men prioritize:",
+    options: ["Status and resources", "Youth and beauty", "Intelligence", "Shared values"],
+    answer: "Youth and beauty",
+    chapter: 10
+  },
+  {
+    question: "Przybylski’s (2013) study found that phone presence during interactions reduced:",
+    options: ["Attraction", "Closeness and trust", "Physical arousal", "Social loafing"],
+    answer: "Closeness and trust",
+    chapter: 10
+  },
+  {
+    question: "Toma’s (2008) research on online dating profiles found most inaccuracies involved:",
+    options: ["Personality traits", "Age, weight, and height", "Career details", "Hobbies"],
+    answer: "Age, weight, and height",
+    chapter: 10
+  },
+  
   ]
   
 
