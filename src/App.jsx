@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import questions from './questions2'; 
+import questions from './questions'; 
+// import questions from './questions2';
+
 
 export default function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -57,7 +59,8 @@ export default function App() {
       {!selectedChapter ? (
         <div className="bg-white p-6 rounded shadow-md w-80">
           <h2 className="text-lg font-semibold mb-2">Select a Chapter</h2>
-          {[7, 9, 10, 12].map((chapter) => (
+          {[11].map((chapter) => (
+          // {[11, 12, 13, 14, 15].map((chapter) => (
             <button
               key={chapter}
               className="bg-blue-500 text-white p-2 rounded mb-2 hover:bg-blue-600 w-full"
