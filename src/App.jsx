@@ -29,12 +29,25 @@ export default function App() {
     }
   };
 
+  const resetQuiz = () => {
+    setCurrentQuestionIndex(0);
+    setSelectedAnswers([]);
+    setShowResults(false);
+    setSelectedQuestions(getRandomQuestions(5, selectedChapter));
+  };
+
   const renderResults = () => {
     const wrongAnswers = selectedAnswers.filter((answer, index) => answer !== selectedQuestions[index].answer);
     const correctAnswersCount = selectedQuestions.length - wrongAnswers.length;
 
     return (
       <div>
+        <button
+          className="bg-blue-500 text-white p-2 rounded mt-4 hover:bg-blue-600 w-full"
+          onClick={resetQuiz}
+        >
+          Reset Quiz
+        </button>
         <h2 className="text-lg font-semibold mb-2">Results:</h2>
         <p className="mb-4">You got {correctAnswersCount} right and {wrongAnswers.length} wrong.</p>
         {selectedQuestions.map((question, index) => (
@@ -58,7 +71,7 @@ export default function App() {
       {!selectedChapter ? (
         <div className="bg-white p-6 rounded shadow-md w-80">
           <h2 className="text-lg font-semibold mb-2">Select a Chapter</h2>
-          {[1, 2, 3, 4].map((chapter) => (
+          {[1, 2, 3].map((chapter) => (
           // {[11, 12, 13, 14, 15].map((chapter) => (
             <button
               key={chapter}
