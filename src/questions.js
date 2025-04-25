@@ -221,6 +221,83 @@ const questions = [
       "chapter": 2
     },
     {
+      "question": "Which biological factor contributes most to Derald's alcoholism risk?",
+      "options": [
+        "His mother's abstinence from alcohol",
+        "Genetic predisposition (father and grandfather were alcoholics)",
+        "His belief that he is destined to fail",
+        "Lack of peer support at school"
+      ],
+      "answer": "Genetic predisposition (father and grandfather were alcoholics)",
+      "chapter": 2
+    },
+    {
+      "question": "According to the diathesis-stress model, what represents Derald's 'diathesis'?",
+      "options": [
+        "His daily alcohol consumption",
+        "Genetic vulnerability to alcoholism",
+        "His mother's emotional neglect",
+        "Bullying at school"
+      ],
+      "answer": "Genetic vulnerability to alcoholism",
+      "chapter": 2
+    },
+    {
+      "question": "Which psychological factor reinforces Derald's alcoholism?",
+      "options": [
+        "His neuroplasticity",
+        "Maladaptive coping (e.g., avoidance)",
+        "Supportive friendships",
+        "High socioeconomic status"
+      ],
+      "answer": "Maladaptive coping (e.g., avoidance)",
+      "chapter": 2
+    },
+    {
+      "question": "Which social factor exacerbates Derald's condition?",
+      "options": [
+        "His mother's blame and exclusion from family activities",
+        "His grandfather's recovery from alcoholism",
+        "Access to therapy",
+        "Stable housing"
+      ],
+      "answer": "His mother's blame and exclusion from family activities",
+      "chapter": 2
+    },
+    {
+      "question": "If Derald had a history of physical abuse, which trauma dimension would this represent?",
+      "options": [
+        "Biological (e.g., brain injury)",
+        "Social (e.g., interpersonal violence)",
+        "Psychological (e.g., cognitive distortions)",
+        "Cultural (e.g., stigma)"
+      ],
+      "answer": "Social (e.g., interpersonal violence)",
+      "chapter": 2
+    },
+    {
+      "question": "Derald associates drinking with relief from stress. Which type of learning does this illustrate?",
+      "options": [
+        "Classical conditioning (association)",
+        "Operant conditioning (reinforcement)",
+        "Vicarious conditioning (observation)",
+        "Neuroplasticity (brain adaptation)"
+      ],
+      "answer": "Operant conditioning (reinforcement)",
+      "chapter": 2
+    },
+    {
+      "question": "Which statement best describes the interaction between chronic stress and biology in Derald's case?",
+      "options": [
+        "Alcohol use improved his hippocampus function",
+        "Genetic resilience prevented brain changes",
+        "Chronic stress likely reduced hippocampal volume",
+        "Social support reversed cortisol dysregulation"
+      ],
+      "answer": "Chronic stress likely reduced hippocampal volume",
+      "chapter": 2
+    },
+    {
       "question": "Which type of clinical interview provides the highest reliability across different clinicians?",
       "options": [
         "Unstructured interview",
@@ -494,7 +571,117 @@ const questions = [
       ],
       "answer": "Equifinality",
       "chapter": 3
-    }
+    },
+    {
+      "question": "What is the primary purpose of neuropsychological tests compared to intelligence tests?",
+      "options": [
+        "Measure emotional intelligence",
+        "Assess cognitive impairment (e.g., memory, attention)",
+        "Diagnose personality disorders",
+        "Evaluate cultural background"
+      ],
+      "answer": "Assess cognitive impairment (e.g., memory, attention)",
+      "chapter": 3
+    },
+    {
+      "question": "Which DSM-5-TR criterion is required for a Major Depressive Disorder (MDD) diagnosis?",
+      "options": [
+        "1 symptom lasting 1 week",
+        "5+ symptoms present during the same 2-week period",
+        "A single manic episode",
+        "Hallucinations or delusions"
+      ],
+      "answer": "5+ symptoms present during the same 2-week period",
+      "chapter": 3
+    },
+    {
+      "question": "What is the first step in the differential diagnosis process?",
+      "options": [
+        "Prescribe medication",
+        "Rule out dishonesty (e.g., malingering)",
+        "Assume cultural bias",
+        "Skip to treatment planning"
+      ],
+      "answer": "Rule out dishonesty (e.g., malingering)",
+      "chapter": 3
+    },
+    {
+      "question": "Why might a clinician use the Cultural Formulation Interview (CFI)?",
+      "options": [
+        "To administer an IQ test",
+        "When clinician and patient have differing cultural backgrounds",
+        "To diagnose schizophrenia",
+        "As a replacement for the DSM-5"
+      ],
+      "answer": "When clinician and patient have differing cultural backgrounds",
+      "chapter": 3
+    },
+    {
+      "question": "Which question aligns with the CFI's focus on cultural identity?",
+      "options": [
+        "What is your blood type?",
+        "What is the most important aspect of your background or identity?",
+        "How many siblings do you have?",
+        "Rate your pain on a scale of 1-10"
+      ],
+      "answer": "What is the most important aspect of your background or identity?",
+      "chapter": 3
+    },
+    {
+      "question": "What is a key difference between ICD-10 and DSM-5?",
+      "options": [
+        "ICD-10 is only for physical health",
+        "DSM-5 has fewer disorders than ICD-10",
+        "ICD-10 is used globally; DSM-5 is primarily U.S.-focused",
+        "DSM-5 excludes depression"
+      ],
+      "answer": "ICD-10 is used globally; DSM-5 is primarily U.S.-focused",
+      "chapter": 3
+    },
+    {
+      "question": "Which treatment is an example of third-wave CBT for MDD?",
+      "options": [
+        "Electroconvulsive therapy (ECT)",
+        "Mindfulness-Based Cognitive Therapy (MBCT)",
+        "Antidepressant medication",
+        "Lobotomy"
+      ],
+      "answer": "Mindfulness-Based Cognitive Therapy (MBCT)",
+      "chapter": 3
+    },
+    {
+      "question": "What is a biological treatment for anxiety disorders?",
+      "options": [
+        "Psychoanalysis",
+        "Antianxiety medications (e.g., benzodiazepines)",
+        "Cultural Formulation Interview",
+        "WAIS-IV testing"
+      ],
+      "answer": "Antianxiety medications (e.g., benzodiazepines)",
+      "chapter": 3
+    },
+    {
+      "question": "Which therapy uses magnetic pulses to treat depression?",
+      "options": [
+        "ECT (Electroconvulsive Therapy)",
+        "TMS (Transcranial Magnetic Stimulation)",
+        "SSRIs (e.g., Prozac)",
+        "Vicarious conditioning"
+      ],
+      "answer": "TMS (Transcranial Magnetic Stimulation)",
+      "chapter": 3
+    },
+    {
+      "question": "What is a shared symptom between Major Depressive Disorder and Generalized Anxiety Disorder?",
+      "options": [
+        "Mania",
+        "Sleep disturbances",
+        "Hallucinations",
+        "Hyperactivity"
+      ],
+      "answer": "Sleep disturbances",
+      "chapter": 3
+    },
   
   
   
