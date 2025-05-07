@@ -308,6 +308,138 @@ const questions = [
     "answer": "Avoidance of situations where escape might be difficult",
     "chapter": 1
   },
+  {
+    "question": "According to Seligman's Learned Helplessness Theory, what is a key risk factor for depression?",
+    "options": [
+      "Excessive control over life events",
+      "Lack of control over life events leading to decreased attempts to improve one's situation",
+      "High levels of social support",
+      "Overactive dopamine reward system"
+    ],
+    "answer": "Lack of control over life events leading to decreased attempts to improve one's situation",
+    "chapter": 2
+  },
+  {
+    "question": "Which of the following best describes Beck’s Cognitive Triad in depression?",
+    "options": [
+      "Negative views about self, future, and the world",
+      "Positive reinforcement of maladaptive behaviors",
+      "Dysregulation of the HPA axis",
+      "Excessive reliance on social validation"
+    ],
+    "answer": "Negative views about self, future, and the world",
+    "chapter": 2
+  },
+  {
+    "question": "What is required for a diagnosis of Major Depressive Episode (MDE)?",
+    "options": [
+      "3 symptoms for 1 week",
+      "5 symptoms for 2 weeks, including depressed mood or anhedonia",
+      "2 years of persistent low mood",
+      "A history of manic episodes"
+    ],
+    "answer": "5 symptoms for 2 weeks, including depressed mood or anhedonia",
+    "chapter": 2
+  },
+  {
+    "question": "What is the key difference between Persistent Depressive Disorder (Dysthymia) and Major Depressive Disorder?",
+    "options": [
+      "Dysthymia involves shorter but more severe episodes",
+      "Dysthymia requires symptoms for at least 2 years, while MDD requires a 2-week episode",
+      "MDD is only diagnosed after a manic episode",
+      "Dysthymia includes psychotic features"
+    ],
+    "answer": "Dysthymia requires symptoms for at least 2 years, while MDD requires a 2-week episode",
+    "chapter": 2
+  },
+  {
+    "question": "Which treatment is most effective for preventing relapse in Major Depressive Disorder?",
+    "options": [
+      "Short-term medication only",
+      "Cognitive therapy (long-term reduction in relapse)",
+      "Electroconvulsive therapy (ECT)",
+      "Placebo treatment"
+    ],
+    "answer": "Cognitive therapy (long-term reduction in relapse)",
+    "chapter": 2
+  },
+  {
+    "question": "What is the primary difference between Bipolar I and Bipolar II disorder?",
+    "options": [
+      "Bipolar I includes manic episodes, while Bipolar II includes hypomanic and major depressive episodes",
+      "Bipolar II includes psychotic features",
+      "Bipolar I is less severe than Bipolar II",
+      "Bipolar II requires a history of rapid cycling"
+    ],
+    "answer": "Bipolar I includes manic episodes, while Bipolar II includes hypomanic and major depressive episodes",
+    "chapter": 2
+  },
+  {
+    "question": "Which of the following is a symptom of a manic episode?",
+    "options": [
+      "Decreased need for sleep",
+      "Extreme fatigue",
+      "Social withdrawal",
+      "Low self-esteem"
+    ],
+    "answer": "Decreased need for sleep",
+    "chapter": 2
+  },
+  {
+    "question": "According to the Social Zeitgeber Theory, what can trigger mania or depression in bipolar disorder?",
+    "options": [
+      "Disruptions in sleep and daily routines",
+      "Excessive dopamine production",
+      "Genetic mutations only",
+      "Lack of medication adherence"
+    ],
+    "answer": "Disruptions in sleep and daily routines",
+    "chapter": 2
+  },
+  {
+    "question": "What is the first-line medication treatment for Bipolar Disorder?",
+    "options": [
+      "SSRIs",
+      "Lithium",
+      "Benzodiazepines",
+      "Stimulants"
+    ],
+    "answer": "Lithium",
+    "chapter": 2
+  },
+  {
+    "question": "Which of the following best describes Cyclothymic Disorder?",
+    "options": [
+      "Alternating full manic and depressive episodes",
+      "Chronic hypomanic and depressive symptoms that do not meet full episode criteria",
+      "A single major depressive episode",
+      "Rapid cycling between mania and euthymia"
+    ],
+    "answer": "Chronic hypomanic and depressive symptoms that do not meet full episode criteria",
+    "chapter": 2
+  },
+  {
+    "question": "A patient's mood chart shows 6 months of subthreshold depression, followed by a major depressive episode. What is the most likely diagnosis?",
+    "options": [
+      "Persistent Depressive Disorder (Dysthymia)",
+      "Bipolar II Disorder",
+      "Major Depressive Disorder",
+      "Cyclothymic Disorder"
+    ],
+    "answer": "Major Depressive Disorder",
+    "chapter": 2
+  },
+  {
+    "question": "A mood chart shows 8 months of hypomania, followed by a major depressive episode, then mania, and finally subthreshold depression. What is the most likely diagnosis?",
+    "options": [
+      "Bipolar I Disorder",
+      "Bipolar II Disorder",
+      "Major Depressive Disorder",
+      "Generalized Anxiety Disorder"
+    ],
+    "answer": "Bipolar I Disorder",
+    "chapter": 2
+  }
 ];
 
 export default questions;
