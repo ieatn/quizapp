@@ -71,7 +71,7 @@ export default function App() {
       {!selectedChapter ? (
         <div className="bg-white p-6 rounded shadow-md w-80">
           <h2 className="text-lg font-semibold mb-2">Select a Chapter</h2>
-          {[1].map((chapter) => (
+          {[1, 2].map((chapter) => (
           // {[11, 12, 13, 14, 15].map((chapter) => (
             <button
               key={chapter}
