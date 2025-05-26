@@ -1,691 +1,381 @@
 const questions = [
   {
-    "question": "Which of the following is a key DSM-5 criterion for Obsessive-Compulsive Disorder (OCD)?",
+    "question": "Which personality disorder is characterized by pervasive distrust and suspicion of others, but without psychotic features?",
     "options": [
-      "Fear of open spaces and public transportation",
-      "Persistent depressive mood for at least two years",
-      "Obsessions and compulsions lasting more than one hour per day",
-      "Worry occurring more days than not for 6+ months"
+      "Paranoid Personality Disorder",
+      "Schizoid Personality Disorder",
+      "Schizotypal Personality Disorder",
+      "Borderline Personality Disorder"
     ],
-    "answer": "Obsessions and compulsions lasting more than one hour per day",
+    "answer": "Paranoid Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "At what age does Social Anxiety Disorder typically emerge?",
+    "question": "A person who prefers solitary activities, has little interest in relationships, and appears emotionally cold is most likely to have which disorder?",
     "options": [
-      "Early childhood",
-      "Adolescence",
-      "Mid-30s",
-      "Late adulthood"
+      "Avoidant Personality Disorder",
+      "Schizoid Personality Disorder",
+      "Narcissistic Personality Disorder",
+      "Histrionic Personality Disorder"
     ],
-    "answer": "Adolescence",
+    "answer": "Schizoid Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Which treatment is most commonly used for Post-Traumatic Stress Disorder (PTSD)?",
+    "question": "Which personality disorder involves odd beliefs, magical thinking, and eccentric behavior?",
     "options": [
-      "Tricyclic antidepressants",
-      "Exposure and response prevention",
-      "EMDR (Eye Movement Desensitization and Reprocessing)",
-      "Interoceptive exposure"
+      "Schizotypal Personality Disorder",
+      "Paranoid Personality Disorder",
+      "Obsessive-Compulsive Personality Disorder",
+      "Dependent Personality Disorder"
     ],
-    "answer": "EMDR (Eye Movement Desensitization and Reprocessing)",
+    "answer": "Schizotypal Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "What distinguishes Agoraphobia from other anxiety disorders?",
+    "question": "Which disorder is associated with disregard for the rights of others, criminal behavior, and is only diagnosed in adults?",
     "options": [
-      "Fear of social evaluation",
-      "Fear of being unable to escape in open or public places",
-      "Obsession with personal appearance",
-      "Repetitive behaviors to relieve anxiety"
+      "Borderline Personality Disorder",
+      "Antisocial Personality Disorder",
+      "Narcissistic Personality Disorder",
+      "Schizoid Personality Disorder"
     ],
-    "answer": "Fear of being unable to escape in open or public places",
+    "answer": "Antisocial Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Which disorder involves difficulty discarding possessions regardless of their value?",
+    "question": "Which personality disorder is characterized by a grandiose sense of self-importance and a lack of empathy?",
     "options": [
-      "Body Dysmorphic Disorder",
-      "Hoarding Disorder",
-      "OCD",
-      "Cyclothymic Disorder"
+      "Narcissistic Personality Disorder",
+      "Histrionic Personality Disorder",
+      "Avoidant Personality Disorder",
+      "Schizotypal Personality Disorder"
     ],
-    "answer": "Hoarding Disorder",
+    "answer": "Narcissistic Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Which of the following is a core symptom of Major Depressive Disorder (MDD)?",
+    "question": "Which disorder is marked by unstable relationships, mood swings, and impulsive behavior?",
     "options": [
-      "Hallucinations",
-      "Elevated self-esteem",
-      "Anhedonia",
-      "Obsessions"
+      "Borderline Personality Disorder",
+      "Obsessive-Compulsive Personality Disorder",
+      "Paranoid Personality Disorder",
+      "Dependent Personality Disorder"
     ],
-    "answer": "Anhedonia",
+    "answer": "Borderline Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "What best differentiates Bipolar I Disorder from Bipolar II Disorder?",
+    "question": "Which personality disorder is associated with excessive emotionality, attention-seeking, and provocative behavior?",
     "options": [
-      "Presence of psychosis",
-      "Presence of hypomania but no mania in Bipolar II",
-      "Mood swings within the same day",
-      "Predominantly depressive symptoms"
+      "Histrionic Personality Disorder",
+      "Schizoid Personality Disorder",
+      "Narcissistic Personality Disorder",
+      "Avoidant Personality Disorder"
     ],
-    "answer": "Presence of hypomania but no mania in Bipolar II",
+    "answer": "Histrionic Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Which treatment is commonly used across most anxiety disorders?",
+    "question": "Which disorder involves social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation, but a desire for relationships?",
     "options": [
-      "Lithium",
-      "SSRIs and CBT",
-      "Electroconvulsive Therapy (ECT)",
-      "Benzodiazepines only"
+      "Avoidant Personality Disorder",
+      "Schizoid Personality Disorder",
+      "Dependent Personality Disorder",
+      "Paranoid Personality Disorder"
     ],
-    "answer": "SSRIs and CBT",
+    "answer": "Avoidant Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Schizophrenia requires symptoms to persist for at least:",
+    "question": "A person who has difficulty making everyday decisions without excessive advice and reassurance from others most likely has which disorder?",
     "options": [
-      "1 month",
-      "3 months",
-      "6 months",
-      "2 years"
+      "Dependent Personality Disorder",
+      "Obsessive-Compulsive Personality Disorder",
+      "Borderline Personality Disorder",
+      "Schizotypal Personality Disorder"
     ],
-    "answer": "6 months",
+    "answer": "Dependent Personality Disorder",
     "chapter": 1
   },
   {
-    "question": "Which antipsychotic is considered an atypical medication used for schizophrenia?",
+    "question": "Which personality disorder is characterized by preoccupation with orderliness, perfectionism, and control at the expense of flexibility?",
     "options": [
-      "Haloperidol",
-      "Tranylcypromine",
-      "Clozapine",
-      "Imipramine"
+      "Obsessive-Compulsive Personality Disorder",
+      "Avoidant Personality Disorder",
+      "Paranoid Personality Disorder",
+      "Antisocial Personality Disorder"
     ],
-    "answer": "Clozapine",
+    "answer": "Obsessive-Compulsive Personality Disorder",
     "chapter": 1
   },
+
+
+  // chapter 2 
   {
-    "question": "Which of the following is a key DSM-5 criterion for Generalized Anxiety Disorder (GAD)?",
+    "question": "Which eating disorder is defined by recurrent episodes of binge eating followed by inappropriate compensatory behaviors such as vomiting, occurring at least once a week for three months, with the individual often being normal weight or overweight?",
     "options": [
-      "Recurrent unexpected panic attacks",
-      "Persistent worry occurring more days than not for at least 6 months",
-      "Obsessions and compulsions",
-      "Fear of being in situations where escape might be difficult"
+      "Bulimia Nervosa",
+      "Anorexia Nervosa",
+      "Binge Eating Disorder",
+      "Avoidant/Restrictive Food Intake Disorder"
     ],
-    "answer": "Persistent worry occurring more days than not for at least 6 months",
-    "chapter": 1
-  },
-  {
-    "question": "Which symptom is NOT typically associated with GAD?",
-    "options": [
-      "Muscle tension",
-      "Mind going blank",
-      "Elevated mood",
-      "Sleep disturbances"
-    ],
-    "answer": "Elevated mood",
-    "chapter": 1
-  },
-  {
-    "question": "What is the typical age of onset for GAD?",
-    "options": ["Early childhood", "Early teens to 20s", "Mid-30s", "Late adulthood"],
-    "answer": "Early teens to 20s",
-    "chapter": 1
-  },
-  {
-    "question": "What treatment is most specific to OCD?",
-    "options": ["Exposure and Response Prevention", "Interoceptive Exposure", "Behavioral Activation", "IPT"],
-    "answer": "Exposure and Response Prevention",
-    "chapter": 1
-  },
-  {
-    "question": "What is the minimum duration for PTSD symptoms to qualify for diagnosis?",
-    "options": ["Less than 1 month", "At least 1 month", "3 months", "6 months"],
-    "answer": "At least 1 month",
-    "chapter": 1
-  },
-  {
-    "question": "Which anxiety disorder often begins in childhood between ages 7-11?",
-    "options": ["Phobia", "Panic Disorder", "PTSD", "Body Dysmorphic Disorder"],
-    "answer": "Phobia",
-    "chapter": 1
-  },
-  {
-    "question": "What is the best treatment for a specific phobia?",
-    "options": ["CBT", "Gradual hierarchy exposure therapy", "SSRIs", "EMDR"],
-    "answer": "Gradual hierarchy exposure therapy",
-    "chapter": 1
-  },
-  {
-    "question": "What distinguishes Agoraphobia from Panic Disorder?",
-    "options": [
-      "Presence of compulsions",
-      "Recurrent panic attacks",
-      "Fear and avoidance of public transport/open spaces",
-      "Worry about appearance"
-    ],
-    "answer": "Fear and avoidance of public transport/open spaces",
-    "chapter": 1
-  },
-  {
-    "question": "What is the hallmark symptom of Panic Disorder?",
-    "options": [
-      "Persistent depressive mood",
-      "Hair pulling behavior",
-      "Recurrent panic attacks with fear of additional attacks",
-      "Flashbacks to traumatic events"
-    ],
-    "answer": "Recurrent panic attacks with fear of additional attacks",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder involves imagined physical flaws and repetitive behaviors?",
-    "options": [
-      "Hoarding Disorder",
-      "Body Dysmorphic Disorder",
-      "Trichotillomania",
-      "Social Anxiety Disorder"
-    ],
-    "answer": "Body Dysmorphic Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "What age group is most associated with the onset of Trichotillomania and Excoriation?",
-    "options": ["Childhood", "Teens/Young Adults", "Midlife", "Older Adults"],
-    "answer": "Teens/Young Adults",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder is considered 'PTSD but lasting less than 1 month'?",
-    "options": ["Brief Psychotic Disorder", "ASD (Acute Stress Disorder)", "PDD", "PMDD"],
-    "answer": "ASD (Acute Stress Disorder)",
-    "chapter": 1
-  },
-  {
-    "question": "Which treatment is common to most anxiety disorders?",
-    "options": ["Tricyclics", "Lithium", "SSRIs and CBT", "Clozapine"],
-    "answer": "SSRIs and CBT",
-    "chapter": 1
-  },
-  {
-    "question": "How long must symptoms last for Major Depressive Disorder (MDD) diagnosis?",
-    "options": ["2 days", "1 week", "2+ weeks", "6+ months"],
-    "answer": "2+ weeks",
-    "chapter": 1
-  },
-  {
-    "question": "Which symptom is required for an MDD diagnosis?",
-    "options": [
-      "Obsessions",
-      "Delusions",
-      "Mania",
-      "Depressed mood or anhedonia"
-    ],
-    "answer": "Depressed mood or anhedonia",
-    "chapter": 1
-  },
-  {
-    "question": "What differentiates Persistent Depressive Disorder (PDD) from MDD?",
-    "options": [
-      "PDD includes psychosis",
-      "PDD lasts for 2+ years with milder symptoms",
-      "PDD occurs in old age only",
-      "PDD is treated with EMDR"
-    ],
-    "answer": "PDD lasts for 2+ years with milder symptoms",
-    "chapter": 1
-  },
-  {
-    "question": "What defines Disruptive Mood Dysregulation Disorder (DMDD)?",
-    "options": [
-      "Mood changes related to menstruation",
-      "Hair pulling and skin picking",
-      "Recurrent temper outbursts and irritability for 12+ months",
-      "Fear of scrutiny"
-    ],
-    "answer": "Recurrent temper outbursts and irritability for 12+ months",
-    "chapter": 1
-  },
-  {
-    "question": "Which episode is required for a Bipolar I diagnosis?",
-    "options": [
-      "Major depressive episode",
-      "Hypomanic episode",
-      "Manic episode",
-      "Mixed episode"
-    ],
-    "answer": "Manic episode",
-    "chapter": 1
-  },
-  {
-    "question": "Which is a hallmark of a manic episode?",
-    "options": [
-      "Low self-esteem",
-      "Recurrent panic attacks",
-      "Elevated mood and decreased need for sleep",
-      "Irrational fears"
-    ],
-    "answer": "Elevated mood and decreased need for sleep",
-    "chapter": 1
-  },
-  {
-    "question": "What is the typical treatment for mood disorders like bipolar disorder?",
-    "options": ["SSRIs only", "Lithium and antipsychotics plus CBT", "EMDR", "Exposure therapy"],
-    "answer": "Lithium and antipsychotics plus CBT",
-    "chapter": 1
-  },
-  {
-    "question": "Which of the following is a key DSM-5 criterion for Generalized Anxiety Disorder (GAD)?",
-    "options": [
-      "Recurrent unexpected panic attacks",
-      "Persistent worry occurring more days than not for at least 6 months",
-      "Obsessions and compulsions",
-      "Fear of being in situations where escape might be difficult"
-    ],
-    "answer": "Persistent worry occurring more days than not for at least 6 months",
-    "chapter": 1
-  },
-  {
-    "question": "Which symptom is NOT typically associated with GAD?",
-    "options": [
-      "Muscle tension",
-      "Mind going blank",
-      "Elevated mood",
-      "Sleep disturbances"
-    ],
-    "answer": "Elevated mood",
-    "chapter": 1
-  },
-  {
-    "question": "What is the typical age of onset for GAD?",
-    "options": ["Early childhood", "Early teens to 20s", "Mid-30s", "Late adulthood"],
-    "answer": "Early teens to 20s",
-    "chapter": 1
-  },
-  {
-    "question": "What treatment is most specific to OCD?",
-    "options": ["Exposure and Response Prevention", "Interoceptive Exposure", "Behavioral Activation", "IPT"],
-    "answer": "Exposure and Response Prevention",
-    "chapter": 1
-  },
-  {
-    "question": "What is the minimum duration for PTSD symptoms to qualify for diagnosis?",
-    "options": ["Less than 1 month", "At least 1 month", "3 months", "6 months"],
-    "answer": "At least 1 month",
-    "chapter": 1
-  },
-  {
-    "question": "Which anxiety disorder often begins in childhood between ages 7-11?",
-    "options": ["Phobia", "Panic Disorder", "PTSD", "Body Dysmorphic Disorder"],
-    "answer": "Phobia",
-    "chapter": 1
-  },
-  {
-    "question": "What is the best treatment for a specific phobia?",
-    "options": ["CBT", "Gradual hierarchy exposure therapy", "SSRIs", "EMDR"],
-    "answer": "Gradual hierarchy exposure therapy",
-    "chapter": 1
-  },
-  {
-    "question": "What distinguishes Agoraphobia from Panic Disorder?",
-    "options": [
-      "Presence of compulsions",
-      "Recurrent panic attacks",
-      "Fear and avoidance of public transport/open spaces",
-      "Worry about appearance"
-    ],
-    "answer": "Fear and avoidance of public transport/open spaces",
-    "chapter": 1
-  },
-  {
-    "question": "What is the hallmark symptom of Panic Disorder?",
-    "options": [
-      "Persistent depressive mood",
-      "Hair pulling behavior",
-      "Recurrent panic attacks with fear of additional attacks",
-      "Flashbacks to traumatic events"
-    ],
-    "answer": "Recurrent panic attacks with fear of additional attacks",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder involves imagined physical flaws and repetitive behaviors?",
-    "options": [
-      "Hoarding Disorder",
-      "Body Dysmorphic Disorder",
-      "Trichotillomania",
-      "Social Anxiety Disorder"
-    ],
-    "answer": "Body Dysmorphic Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "What age group is most associated with the onset of Trichotillomania and Excoriation?",
-    "options": ["Childhood", "Teens/Young Adults", "Midlife", "Older Adults"],
-    "answer": "Teens/Young Adults",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder is considered 'PTSD but lasting less than 1 month'?",
-    "options": ["Brief Psychotic Disorder", "ASD (Acute Stress Disorder)", "PDD", "PMDD"],
-    "answer": "ASD (Acute Stress Disorder)",
-    "chapter": 1
-  },
-  {
-    "question": "Which treatment is common to most anxiety disorders?",
-    "options": ["Tricyclics", "Lithium", "SSRIs and CBT", "Clozapine"],
-    "answer": "SSRIs and CBT",
-    "chapter": 1
-  },
-  {
-    "question": "How long must symptoms last for Major Depressive Disorder (MDD) diagnosis?",
-    "options": ["2 days", "1 week", "2+ weeks", "6+ months"],
-    "answer": "2+ weeks",
-    "chapter": 1
-  },
-  {
-    "question": "Which symptom is required for an MDD diagnosis?",
-    "options": [
-      "Obsessions",
-      "Delusions",
-      "Mania",
-      "Depressed mood or anhedonia"
-    ],
-    "answer": "Depressed mood or anhedonia",
-    "chapter": 1
-  },
-  {
-    "question": "What differentiates Persistent Depressive Disorder (PDD) from MDD?",
-    "options": [
-      "PDD includes psychosis",
-      "PDD lasts for 2+ years with milder symptoms",
-      "PDD occurs in old age only",
-      "PDD is treated with EMDR"
-    ],
-    "answer": "PDD lasts for 2+ years with milder symptoms",
-    "chapter": 1
-  },
-  {
-    "question": "What defines Disruptive Mood Dysregulation Disorder (DMDD)?",
-    "options": [
-      "Mood changes related to menstruation",
-      "Hair pulling and skin picking",
-      "Recurrent temper outbursts and irritability for 12+ months",
-      "Fear of scrutiny"
-    ],
-    "answer": "Recurrent temper outbursts and irritability for 12+ months",
-    "chapter": 1
-  },
-  {
-    "question": "Which episode is required for a Bipolar I diagnosis?",
-    "options": [
-      "Major depressive episode",
-      "Hypomanic episode",
-      "Manic episode",
-      "Mixed episode"
-    ],
-    "answer": "Manic episode",
-    "chapter": 1
-  },
-  {
-    "question": "Which is a hallmark of a manic episode?",
-    "options": [
-      "Low self-esteem",
-      "Recurrent panic attacks",
-      "Elevated mood and decreased need for sleep",
-      "Irrational fears"
-    ],
-    "answer": "Elevated mood and decreased need for sleep",
-    "chapter": 1
-  },
-  {
-    "question": "What is the typical treatment for mood disorders like bipolar disorder?",
-    "options": ["SSRIs only", "Lithium and antipsychotics plus CBT", "EMDR", "Exposure therapy"],
-    "answer": "Lithium and antipsychotics plus CBT",
-    "chapter": 1
-  },
-  {
-    "question": "Which of the following best describes the Multipath Model of Anxiety Disorders?",
-    "options": [
-      "Genetics, cognitive distortions, trauma, serotonin imbalance",
-      "Overactive amygdala, anxiety cycle, stressful relationships, gender norms",
-      "Fear extinction, negative schemas, family history, poverty",
-      "HPA axis dysfunction, learned helplessness, peer rejection, urban stress"
-    ],
-    "answer": "Overactive amygdala, anxiety cycle, stressful relationships, gender norms",
+    "answer": "Bulimia Nervosa",
     "chapter": 2
   },
   {
-    "question": "Which combination correctly represents the Multipath Model of PTSD?",
+    "question": "Which eating disorder is characterized by restriction of energy intake leading to significantly low body weight, intense fear of gaining weight, and may include binge eating or purging behaviors, but the individual is always underweight?",
     "options": [
-      "Low serotonin, distorted thoughts, peer rejection, poverty",
-      "Amygdala hyperactivity, operant conditioning, abuse history, gender roles",
-      "HPA axis dysfunction, negative appraisal styles, abuse history, discrimination",
-      "Fight-or-flight activation, cognitive distortions, social conflict, urban living"
+      "Anorexia Nervosa",
+      "Bulimia Nervosa",
+      "Binge Eating Disorder",
+      "Pica"
     ],
-    "answer": "HPA axis dysfunction, negative appraisal styles, abuse history, discrimination",
+    "answer": "Anorexia Nervosa",
     "chapter": 2
   },
   {
-    "question": "What are the four components of the Multipath Model of OCD?",
+    "question": "Which eating disorder involves recurrent episodes of binge eating without regular use of inappropriate compensatory behaviors, and is often associated with being overweight or obese?",
     "options": [
-      "Low serotonin, learned helplessness, trauma, poverty",
-      "Orbitofrontal circuit issues, operant conditioning, parental overprotection, culture",
-      "HPA axis dysregulation, negative triad, family stress, socioeconomic status",
-      "Amygdala hyperactivity, cognitive schemas, peer conflict, discrimination"
+      "Binge Eating Disorder",
+      "Bulimia Nervosa",
+      "Anorexia Nervosa",
+      "Rumination Disorder"
     ],
-    "answer": "Orbitofrontal circuit issues, operant conditioning, parental overprotection, culture",
+    "answer": "Binge Eating Disorder",
     "chapter": 2
   },
+
+
+  // chapter 3 multipath
+
   {
-    "question": "Which of the following describes the Multipath Model of Major Depressive Disorder (MDD)?",
+    "question": "Which of the following is a biological factor in the multipath model for Antisocial Personality Disorder (ASPD)?",
     "options": [
-      "Low serotonin, Beck’s triad, social isolation, gender roles",
-      "Overactive dopamine, distorted thoughts, trauma, urban stress",
-      "Circadian rhythm disruption, learned helplessness, conflict, prejudice",
-      "Amygdala shrinkage, reward seeking, peer rejection, socioeconomic status"
+      "Genetic heritability and reduced amygdala responsivity",
+      "Cognitive distortions and low self-esteem",
+      "Severe childhood maltreatment",
+      "Cultural values promoting individualism"
     ],
-    "answer": "Low serotonin, Beck’s triad, social isolation, gender roles",
-    "chapter": 2
+    "answer": "Genetic heritability and reduced amygdala responsivity",
+    "chapter": 3
   },
   {
-    "question": "Which set best matches the Multipath Model for Bipolar Disorder?",
+    "question": "A predatory strategy-focused cognitive style and learning deficits from punishment are examples of which multipath model factor in ASPD?",
     "options": [
-      "Low dopamine, pessimism, social rejection, gender roles",
-      "High heritability, poor coping, abuse, cultural stigma",
-      "Serotonin imbalance, learned helplessness, isolation, discrimination",
-      "Orbitofrontal dysfunction, negative triad, conflict, urban stress"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "High heritability, poor coping, abuse, cultural stigma",
-    "chapter": 2
+    "answer": "Psychological",
+    "chapter": 3
   },
   {
-    "question": "Which are the four dimensions in the Multipath Model of Schizophrenia?",
+    "question": "Severe childhood emotional and physical maltreatment and family history of criminal behavior are considered which type of factor in the multipath model for ASPD?",
     "options": [
-      "Dopamine dysregulation, cognitive bias, trauma, urban living",
-      "Low serotonin, distorted thinking, peer pressure, gender roles",
-      "High cortisol, learned helplessness, conflict, cultural expectations",
-      "Amygdala dysfunction, impulsivity, abuse, stigma"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "Dopamine dysregulation, cognitive bias, trauma, urban living",
-    "chapter": 2
-  },
-  {
-    "question": "Which symptom type includes hallucinations and delusions in schizophrenia?",
-    "options": ["Negative symptoms", "Positive symptoms", "Cognitive symptoms", "Prodromal symptoms"],
-    "answer": "Positive symptoms",
+    "answer": "Social",
     "chapter": 3
   },
   {
-    "question": "Which of the following is a negative symptom of schizophrenia?",
-    "options": ["Hallucinations", "Delusions", "Flat affect", "Disorganized speech"],
-    "answer": "Flat affect",
-    "chapter": 3
-  },
-  {
-    "question": "What defines the prodromal phase of schizophrenia?",
+    "question": "Gender differences and the influence of individualistic culture are examples of which multipath model factor in ASPD?",
     "options": [
-      "Severe hallucinations and delusions",
-      "Mood swings and grandiosity",
-      "Social withdrawal and odd beliefs before full psychosis",
-      "Sudden onset of panic attacks"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "Social withdrawal and odd beliefs before full psychosis",
+    "answer": "Sociocultural",
     "chapter": 3
   },
   {
-    "question": "Which delusion type involves believing others are out to harm you?",
-    "options": ["Somatic", "Grandiose", "Jealous", "Persecutory"],
-    "answer": "Persecutory",
-    "chapter": 3
-  },
-  {
-    "question": "Which type of antipsychotic is associated with high EPS (extrapyramidal symptoms)?",
-    "options": ["SSRIs", "Atypical antipsychotics", "MAOIs", "Typical antipsychotics like haloperidol"],
-    "answer": "Typical antipsychotics like haloperidol",
-    "chapter": 3
-  },
-  {
-    "question": "Which antipsychotic is better for treating negative symptoms of schizophrenia?",
-    "options": ["Haloperidol", "Risperidone", "Lithium", "Diazepam"],
-    "answer": "Risperidone",
-    "chapter": 3
-  },
-  {
-    "question": "What distinguishes panic disorder from panic attacks?",
+    "question": "High emotional reactivity and changes in frontolimbic circuitry are biological factors most associated with which personality disorder?",
     "options": [
-      "Panic attacks involve trauma; panic disorder involves compulsions",
-      "Panic disorder includes repeated attacks and fear of future attacks",
-      "Panic disorder is milder than panic attacks",
-      "Panic attacks last over an hour; panic disorder is brief"
+      "Antisocial Personality Disorder",
+      "Borderline Personality Disorder",
+      "Obsessive-Compulsive Personality Disorder",
+      "Narcissistic Personality Disorder"
     ],
-    "answer": "Panic disorder includes repeated attacks and fear of future attacks",
+    "answer": "Borderline Personality Disorder",
     "chapter": 3
   },
   {
-    "question": "Cassie was caught in a riptide and now has flashbacks and trouble sleeping for less than a month. What is the likely diagnosis?",
-    "options": ["PTSD", "GAD", "Acute Stress Disorder", "Panic Disorder"],
-    "answer": "Acute Stress Disorder",
-    "chapter": 3
-  },
-  {
-    "question": "What is a key difference between PTSD and Acute Stress Disorder?",
+    "question": "Which psychological factor is commonly seen in the multipath model for Borderline Personality Disorder?",
     "options": [
-      "PTSD has delusions; Acute Stress Disorder does not",
-      "Acute Stress Disorder occurs after 6 months; PTSD occurs within 1 month",
-      "PTSD lasts longer than one month; Acute Stress Disorder is less than one month",
-      "Only Acute Stress Disorder involves nightmares"
+      "Perfectionism",
+      "Cognitive distortions with high levels of shame and low self-esteem",
+      "Predatory strategy-focused cognition",
+      "Learning deficits from punishment"
     ],
-    "answer": "PTSD lasts longer than one month; Acute Stress Disorder is less than one month",
+    "answer": "Cognitive distortions with high levels of shame and low self-esteem",
     "chapter": 3
   },
   {
-    "question": "Which anxiety disorder tends to have the earliest age of onset?",
-    "options": ["Panic Disorder", "Bipolar Disorder", "GAD", "Phobia"],
-    "answer": "Phobia",
-    "chapter": 3
-  },
-  {
-    "question": "What is Islamic Trauma Healing (ITH)?",
+    "question": "Early trauma and abuse are considered which type of factor in the multipath model for Borderline Personality Disorder?",
     "options": [
-      "A medication for religious anxiety",
-      "A 6-session therapy blending Islamic practices and trauma-focused CBT",
-      "A mindfulness meditation retreat",
-      "An alternative to SSRIs for Muslim patients"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "A 6-session therapy blending Islamic practices and trauma-focused CBT",
+    "answer": "Social",
     "chapter": 3
   },
   {
-    "question": "What makes Islamic Trauma Healing effective and culturally sensitive?",
+    "question": "Borderline Personality Disorder is diagnosed three times more often in women than men. This is an example of which multipath model factor?",
     "options": [
-      "It replaces therapy with prayer alone",
-      "It uses eye movements like EMDR",
-      "It combines religious coping with CBT techniques, making therapy more acceptable to some communities",
-      "It involves only faith-based counseling without psychology"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "It combines religious coping with CBT techniques, making therapy more acceptable to some communities",
+    "answer": "Sociocultural",
     "chapter": 3
   },
   {
-    "question": "What is the difference between fear and anxiety?",
+    "question": "Which of the following is a biological factor in the multipath model for eating disorders?",
     "options": [
-      "Fear is vague; anxiety is specific",
-      "Fear is a response to thoughts; anxiety to reality",
-      "Fear is immediate; anxiety is future-oriented",
-      "There is no difference"
+      "Genetic predisposition and differences in appetite-regulating hormones",
+      "Parental attitudes and peer pressure",
+      "Perfectionism and distorted thinking",
+      "Media portrayal of beauty standards"
     ],
-    "answer": "Fear is immediate; anxiety is future-oriented",
+    "answer": "Genetic predisposition and differences in appetite-regulating hormones",
     "chapter": 3
   },
   {
-    "question": "Which of the following disorders has high comorbidity with depression?",
-    "options": ["OCD", "PTSD", "Social Anxiety Disorder", "Body Dysmorphic Disorder"],
-    "answer": "Social Anxiety Disorder",
-    "chapter": 3
-  },
-  {
-    "question": "Which of the following therapies includes both exposure and cognitive work?",
-    "options": ["Prolonged Exposure (PE)", "CPT", "EMDR", "Systematic Desensitization"],
-    "answer": "CPT",
-    "chapter": 3
-  },
-  {
-    "question": "Which type of episode in bipolar disorder predicts worse long-term outcomes?",
+    "question": "Perfectionism, impulsivity, and distorted all-or-nothing thinking are considered which factor in the multipath model for eating disorders?",
     "options": [
-      "Hypomanic episodes",
-      "Manic episodes only",
-      "Mixed episodes",
-      "Cyclothymic periods"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "Mixed episodes",
+    "answer": "Psychological",
     "chapter": 3
   },
   {
-    "question": "What biological factor strongly contributes to bipolar disorder?",
-    "options": ["Serotonin imbalance", "High heritability", "Negative thoughts", "Urban stress"],
-    "answer": "High heritability",
-    "chapter": 3
-  },
-  {
-    "question": "How does circadian rhythm disruption impact bipolar disorder?",
+    "question": "Parental attitudes, peer pressure, and history of being teased are examples of which multipath model factor for eating disorders?",
     "options": [
-      "It causes hallucinations",
-      "It leads to better mood stability",
-      "It contributes to mood instability and is a treatment focus",
-      "It only affects sleep"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "It contributes to mood instability and is a treatment focus",
+    "answer": "Social",
     "chapter": 3
   },
   {
-    "question": "What side effects of antipsychotics most commonly lead to non-adherence?",
+    "question": "Media portrayal of beauty standards and underdiagnosis in certain demographics are examples of which factor in the multipath model for eating disorders?",
     "options": [
-      "Improved sleep and memory",
-      "Euphoria and addiction",
-      "Weight gain, sedation, and movement-related symptoms",
-      "Social withdrawal and disorganization"
+      "Biological",
+      "Psychological",
+      "Social",
+      "Sociocultural"
     ],
-    "answer": "Weight gain, sedation, and movement-related symptoms",
+    "answer": "Sociocultural",
     "chapter": 3
   },
+
+
+  // chapter 4 identification clusters 
   {
-    "question": "Which statement accurately compares genetic links across disorders?",
+    "question": "Which of the following personality disorders is classified under Cluster A?",
     "options": [
-      "Schizophrenia is less heritable than depression",
-      "Bipolar I is genetically closer to schizophrenia than Bipolar II",
-      "Bipolar II is more like schizophrenia than depression",
-      "Depression and bipolar I are genetically identical"
+      "Paranoid Personality Disorder",
+      "Antisocial Personality Disorder",
+      "Avoidant Personality Disorder",
+      "Obsessive-Compulsive Personality Disorder"
     ],
-    "answer": "Bipolar I is genetically closer to schizophrenia than Bipolar II",
-    "chapter": 3
+    "answer": "Paranoid Personality Disorder",
+    "chapter": 4
+  },
+  {
+    "question": "Schizoid Personality Disorder belongs to which DSM-5 cluster?",
+    "options": [
+      "Cluster A (odd/eccentric)",
+      "Cluster B (dramatic/emotional/erratic)",
+      "Cluster C (anxious/fearful)",
+      "None of the above"
+    ],
+    "answer": "Cluster A (odd/eccentric)",
+    "chapter": 4
+  },
+  {
+    "question": "Which cluster includes Antisocial, Borderline, Histrionic, and Narcissistic Personality Disorders?",
+    "options": [
+      "Cluster A",
+      "Cluster B",
+      "Cluster C",
+      "Cluster D"
+    ],
+    "answer": "Cluster B",
+    "chapter": 4
+  },
+  {
+    "question": "A person with dramatic, emotional, or erratic behavior is most likely to have a personality disorder from which cluster?",
+    "options": [
+      "Cluster A",
+      "Cluster B",
+      "Cluster C",
+      "Cluster D"
+    ],
+    "answer": "Cluster B",
+    "chapter": 4
+  },
+  {
+    "question": "Which of the following is NOT a Cluster C personality disorder?",
+    "options": [
+      "Obsessive-Compulsive Personality Disorder",
+      "Dependent Personality Disorder",
+      "Avoidant Personality Disorder",
+      "Schizotypal Personality Disorder"
+    ],
+    "answer": "Schizotypal Personality Disorder",
+    "chapter": 4
+  },
+  {
+    "question": "Cluster C personality disorders are best described as:",
+    "options": [
+      "Odd or eccentric",
+      "Dramatic, emotional, or erratic",
+      "Anxious or fearful",
+      "Psychotic"
+    ],
+    "answer": "Anxious or fearful",
+    "chapter": 4
+  },
+  {
+    "question": "Which cluster is characterized by odd or eccentric behaviors, including social withdrawal and distorted thinking?",
+    "options": [
+      "Cluster A",
+      "Cluster B",
+      "Cluster C",
+      "Cluster D"
+    ],
+    "answer": "Cluster A",
+    "chapter": 4
+  },
+  {
+    "question": "Which of the following personality disorders is classified in Cluster B?",
+    "options": [
+      "Borderline Personality Disorder",
+      "Dependent Personality Disorder",
+      "Schizoid Personality Disorder",
+      "Paranoid Personality Disorder"
+    ],
+    "answer": "Borderline Personality Disorder",
+    "chapter": 4
   }
 
+
+  // chapter 5 criteria symptoms 
+  // chapter 6 treatments 
 
 
 
