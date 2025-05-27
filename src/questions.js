@@ -371,11 +371,225 @@ const questions = [
     ],
     "answer": "Borderline Personality Disorder",
     "chapter": 4
-  }
-
+  },
+  
 
   // chapter 5 criteria symptoms 
+
+  {
+    "question": "Which of the following is a general diagnostic criterion for personality disorders?",
+    "options": [
+      "Symptoms must begin in childhood",
+      "Enduring pattern of behavior that deviates from cultural expectations",
+      "Exclusive presence of hallucinations",
+      "Complete lack of emotional response"
+    ],
+    "answer": "Enduring pattern of behavior that deviates from cultural expectations",
+    "chapter": 5
+  },
+  {
+    "question": "Which personality disorder is characterized by pervasive distrust and interpreting others' motives as malevolent?",
+    "options": [
+      "Schizoid PD",
+      "Paranoid PD",
+      "Avoidant PD",
+      "Borderline PD"
+    ],
+    "answer": "Paranoid PD",
+    "chapter": 5
+  },
+  {
+    "question": "A patient displays grandiosity, a need for admiration, and a lack of empathy. Which Cluster B disorder is most likely?",
+    "options": [
+      "Antisocial PD",
+      "Narcissistic PD",
+      "Histrionic PD",
+      "Borderline PD"
+    ],
+    "answer": "Narcissistic PD",
+    "chapter": 5
+  },
+  {
+    "question": "Which of the following is required for a diagnosis of Antisocial Personality Disorder?",
+    "options": [
+      "Evidence of conduct disorder before age 15",
+      "Onset after age 30",
+      "Exclusive history of anxiety disorders",
+      "No history of impulsive behavior"
+    ],
+    "answer": "Evidence of conduct disorder before age 15",
+    "chapter": 5
+  },
+  {
+    "question": "Which personality disorder involves frantic efforts to avoid abandonment and unstable self-image?",
+    "options": [
+      "Dependent PD",
+      "Borderline PD",
+      "Obsessive-Compulsive PD",
+      "Schizotypal PD"
+    ],
+    "answer": "Borderline PD",
+    "chapter": 5
+  },
+  {
+    "question": "Which of the following is a key feature of Anorexia Nervosa?",
+    "options": [
+      "Binge eating without compensatory behaviors",
+      "Intense fear of gaining weight despite low body weight",
+      "Exclusive focus on muscle gain",
+      "No disturbance in self-perception"
+    ],
+    "answer": "Intense fear of gaining weight despite low body weight",
+    "chapter": 5
+  },
+  {
+    "question": "Bulimia Nervosa requires recurrent inappropriate compensatory behaviors to prevent weight gain, occurring at least:",
+    "options": [
+      "Once a week for 1 month",
+      "Twice a week for 2 months",
+      "Once a week for 3 months",
+      "Daily for 6 months"
+    ],
+    "answer": "Once a week for 3 months",
+    "chapter": 5
+  },
+  {
+    "question": "Which eating disorder is most associated with 'chipmunk cheeks' due to purging?",
+    "options": [
+      "Anorexia Nervosa (restricting type)",
+      "Bulimia Nervosa",
+      "Binge Eating Disorder",
+      "Avoidant/Restrictive Food Intake Disorder"
+    ],
+    "answer": "Bulimia Nervosa",
+    "chapter": 5
+  },
+  {
+    "question": "A patient with rigid perfectionism, preoccupation with rules, and reluctance to delegate tasks likely has:",
+    "options": [
+      "Obsessive-Compulsive Disorder (OCD)",
+      "Obsessive-Compulsive Personality Disorder (OCPD)",
+      "Avoidant Personality Disorder",
+      "Schizotypal PD"
+    ],
+    "answer": "Obsessive-Compulsive Personality Disorder (OCPD)",
+    "chapter": 5
+  },
+  {
+    "question": "Which Cluster A disorder involves peculiar thoughts, magical thinking, and odd behavior?",
+    "options": [
+      "Paranoid PD",
+      "Schizoid PD",
+      "Schizotypal PD",
+      "Avoidant PD"
+    ],
+    "answer": "Schizotypal PD",
+    "chapter": 5
+  },
+
+
+
+
   // chapter 6 treatments 
+  {
+    "question": "What is the primary goal of the DBT consultation team?",
+    "options": [
+      "To diagnose personality disorders",
+      "Provide consultation to therapists and prevent burnout",
+      "Conduct group skills training sessions",
+      "Prescribe psychiatric medications"
+    ],
+    "answer": "Provide consultation to therapists and prevent burnout",
+    "chapter": 6
+  },
+  {
+    "question": "Which medication is a first-line treatment for Bulimia Nervosa?",
+    "options": [
+      "Vyvanse",
+      "Zyprexa",
+      "Fluoxetine (Prozac)",
+      "Topamax"
+    ],
+    "answer": "Fluoxetine (Prozac)",
+    "chapter": 6
+  },
+  {
+    "question": "Family-based treatment (FBT) is most commonly used for which population?",
+    "options": [
+      "Adults with Binge Eating Disorder",
+      "Adolescents with anorexia nervosa",
+      "Individuals with Borderline Personality Disorder",
+      "Patients with Schizotypal PD"
+    ],
+    "answer": "Adolescents with anorexia nervosa",
+    "chapter": 6
+  },
+  {
+    "question": "What is the typical duration of DBT phone coaching sessions?",
+    "options": [
+      "30-60 minutes",
+      "5-10 minutes",
+      "15-20 minutes",
+      "2-5 minutes"
+    ],
+    "answer": "5-10 minutes",
+    "chapter": 6
+  },
+  {
+    "question": "Which medication is FDA-approved for Binge Eating Disorder?",
+    "options": [
+      "Bupropion (Wellbutrin)",
+      "Vyvanse",
+      "Topiramate (Topamax)",
+      "Olanzapine (Zyprexa)"
+    ],
+    "answer": "Vyvanse",
+    "chapter": 6
+  },
+  {
+    "question": "Which of the following is NOT one of the four standard modes of DBT?",
+    "options": [
+      "Individual therapy",
+      "Group skills training",
+      "Pharmacotherapy",
+      "Phone coaching"
+    ],
+    "answer": "Pharmacotherapy",
+    "chapter": 6
+  },
+  {
+    "question": "What is the first target in DBT's hierarchical approach to treatment?",
+    "options": [
+      "Improving interpersonal relationships",
+      "Life-threatening behaviors",
+      "Therapy-interfering behaviors",
+      "Quality-of-life interfering behaviors"
+    ],
+    "answer": "Life-threatening behaviors",
+    "chapter": 6
+  },
+  {
+    "question": "CBT-E (Enhanced Cognitive Behavioral Therapy) primarily focuses on:",
+    "options": [
+      "Family dynamics",
+      "Psychological factors maintaining the eating disorder",
+      "Medication management",
+      "Trauma resolution"
+    ],
+    "answer": "Psychological factors maintaining the eating disorder",
+    "chapter": 6
+  },
+  {
+    "question": "Which medication is typically avoided in Anorexia Nervosa due to cardiovascular risks?",
+    "options": [
+      "Fluoxetine (Prozac)",
+      "Olanzapine (Zyprexa)",
+      "Bupropion (Wellbutrin)",
+      "Topiramate (Topamax)"
+    ],
+    "answer": "Bupropion (Wellbutrin)",
+    "chapter": 6
+  }
 
 
 
