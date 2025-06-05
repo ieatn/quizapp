@@ -1,598 +1,357 @@
 const questions = [
   {
-    "question": "Which personality disorder is characterized by pervasive distrust and suspicion of others, but without psychotic features?",
+    "question": "What are the four primary modes of Dialectical Behavior Therapy (DBT)?",
     "options": [
-      "Paranoid Personality Disorder",
-      "Schizoid Personality Disorder",
+      "Individual therapy, group skills training, phone coaching, therapist consultation",
+      "Medication management, exposure therapy, cognitive restructuring, family therapy",
+      "Psychoanalysis, mindfulness, emotion regulation, interpersonal effectiveness",
+      "Support groups, crisis intervention, journaling, relapse prevention"
+    ],
+    "answer": "Individual therapy, group skills training, phone coaching, therapist consultation",
+    "chapter": 1
+  },
+  {
+    "question": "Which four skills are core components of Dialectical Behavior Therapy (DBT)?",
+    "options": [
+      "Mindfulness, emotion regulation, distress tolerance, interpersonal effectiveness",
+      "Cognitive restructuring, exposure response prevention, assertiveness, relaxation",
+      "Tolerance, withdrawal management, harm reduction, motivational interviewing",
+      "Self-monitoring, problem-solving, social skills, biofeedback"
+    ],
+    "answer": "Mindfulness, emotion regulation, distress tolerance, interpersonal effectiveness",
+    "chapter": 1
+  },
+  {
+    "question": "According to Linehan's Biosocial Theory, what combination causes borderline personality disorder?",
+    "options": [
+      "Biological emotion dysregulation + an invalidating environment",
+      "Genetic predisposition + childhood trauma",
+      "Neurotransmitter imbalances + social isolation",
+      "Cognitive distortions + maladaptive parenting"
+    ],
+    "answer": "Biological emotion dysregulation + an invalidating environment",
+    "chapter": 1
+  },
+  {
+    "question": "What are the two diagnostic subtypes of anorexia nervosa?",
+    "options": [
+      "Restricting type and binge-eating/purging type",
+      "Emotional eating type and avoidant type",
+      "Bulimic type and non-bulimic type",
+      "Compensatory type and non-compensatory type"
+    ],
+    "answer": "Restricting type and binge-eating/purging type",
+    "chapter": 2
+  },
+  {
+    "question": "Which physical consequences are commonly associated with bulimia nervosa?",
+    "options": [
+      "Electrolyte imbalance, tooth decay, esophageal damage",
+      "Osteoporosis, amenorrhea, cardiac issues",
+      "Obesity, diabetes, hypertension",
+      "Liver failure, kidney stones, pancreatitis"
+    ],
+    "answer": "Electrolyte imbalance, tooth decay, esophageal damage",
+    "chapter": 2
+  },
+  {
+    "question": "Which physical consequences are commonly associated with binge-eating disorder (BED)?",
+    "options": [
+      "Obesity, diabetes, hypertension",
+      "Osteoporosis, amenorrhea, cardiac issues",
+      "Electrolyte imbalance, tooth decay, esophageal damage",
+      "Gastrointestinal paralysis, hypoglycemia, hair loss"
+    ],
+    "answer": "Obesity, diabetes, hypertension",
+    "chapter": 2
+  },
+  {
+    "question": "Which of the following is NOT a physical consequence that can develop in anorexia nervosa?",
+    "options": [
+      "Decreased bone density",
+      "Weak tooth enamel",
+      "Swollen salivary glands",
+      "All of the above are potential physical consequences"
+    ],
+    "answer": "All of the above are potential physical consequences",
+    "chapter": 2
+  },
+  {
+    "question": "What is the key difference between OCD and OCPD?",
+    "options": [
+      "OCD involves intrusive thoughts/compulsions; OCPD involves rigid personality traits",
+      "OCPD includes psychosis; OCD does not",
+      "OCD is genetic; OCPD is environmentally caused",
+      "OCPD responds to medication; OCD requires therapy"
+    ],
+    "answer": "OCD involves intrusive thoughts/compulsions; OCPD involves rigid personality traits",
+    "chapter": 3
+  },
+  {
+    "question": "What special rule applies when diagnosing antisocial personality disorder?",
+    "options": [
+      "Patient must be ≥18 years with a history of conduct disorder",
+      "Patient must exhibit callous-unemotional traits before age 10",
+      "Symptoms must persist for ≥5 years",
+      "Diagnosis requires comorbid substance use disorder"
+    ],
+    "answer": "Patient must be ≥18 years with a history of conduct disorder",
+    "chapter": 3
+  },
+  {
+    "question": "What do 'callous-unemotional' traits predict in antisocial behavior?",
+    "options": [
+      "Lack of guilt, empathy, and remorse",
+      "High anxiety and emotional volatility",
+      "Compulsive lying and manipulativeness",
+      "Impulsivity and risk-taking behaviors"
+    ],
+    "answer": "Lack of guilt, empathy, and remorse",
+    "chapter": 3
+  },
+  {
+    "question": "Which disorders are most comorbid with antisocial personality disorder?",
+    "options": [
+      "Substance use disorders and ADHD",
+      "Depression and eating disorders",
+      "Bipolar disorder and OCD",
+      "PTSD and generalized anxiety"
+    ],
+    "answer": "Substance use disorders and ADHD",
+    "chapter": 3
+  },
+  {
+    "question": "Which disorders are most comorbid with borderline personality disorder?",
+    "options": [
+      "Depression, PTSD, and eating disorders",
+      "Schizophrenia, bipolar disorder, and OCD",
+      "ADHD, autism, and intellectual disability",
+      "Panic disorder, phobias, and somatic symptoms"
+    ],
+    "answer": "Depression, PTSD, and eating disorders",
+    "chapter": 3
+  },
+  {
+    "question": "Acute discomfort with close relationships, peculiar thoughts, and odd beliefs are key symptoms of which personality disorder?",
+    "options": [
       "Schizotypal Personality Disorder",
-      "Borderline Personality Disorder"
-    ],
-    "answer": "Paranoid Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "A person who prefers solitary activities, has little interest in relationships, and appears emotionally cold is most likely to have which disorder?",
-    "options": [
-      "Avoidant Personality Disorder",
-      "Schizoid Personality Disorder",
-      "Narcissistic Personality Disorder",
-      "Histrionic Personality Disorder"
-    ],
-    "answer": "Schizoid Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which personality disorder involves odd beliefs, magical thinking, and eccentric behavior?",
-    "options": [
-      "Schizotypal Personality Disorder",
-      "Paranoid Personality Disorder",
       "Obsessive-Compulsive Personality Disorder",
-      "Dependent Personality Disorder"
-    ],
-    "answer": "Schizotypal Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder is associated with disregard for the rights of others, criminal behavior, and is only diagnosed in adults?",
-    "options": [
-      "Borderline Personality Disorder",
-      "Antisocial Personality Disorder",
-      "Narcissistic Personality Disorder",
-      "Schizoid Personality Disorder"
-    ],
-    "answer": "Antisocial Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which personality disorder is characterized by a grandiose sense of self-importance and a lack of empathy?",
-    "options": [
-      "Narcissistic Personality Disorder",
       "Histrionic Personality Disorder",
-      "Avoidant Personality Disorder",
-      "Schizotypal Personality Disorder"
-    ],
-    "answer": "Narcissistic Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder is marked by unstable relationships, mood swings, and impulsive behavior?",
-    "options": [
-      "Borderline Personality Disorder",
-      "Obsessive-Compulsive Personality Disorder",
-      "Paranoid Personality Disorder",
-      "Dependent Personality Disorder"
-    ],
-    "answer": "Borderline Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which personality disorder is associated with excessive emotionality, attention-seeking, and provocative behavior?",
-    "options": [
-      "Histrionic Personality Disorder",
-      "Schizoid Personality Disorder",
-      "Narcissistic Personality Disorder",
-      "Avoidant Personality Disorder"
-    ],
-    "answer": "Histrionic Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which disorder involves social inhibition, feelings of inadequacy, and hypersensitivity to negative evaluation, but a desire for relationships?",
-    "options": [
-      "Avoidant Personality Disorder",
-      "Schizoid Personality Disorder",
-      "Dependent Personality Disorder",
-      "Paranoid Personality Disorder"
-    ],
-    "answer": "Avoidant Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "A person who has difficulty making everyday decisions without excessive advice and reassurance from others most likely has which disorder?",
-    "options": [
-      "Dependent Personality Disorder",
-      "Obsessive-Compulsive Personality Disorder",
-      "Borderline Personality Disorder",
-      "Schizotypal Personality Disorder"
-    ],
-    "answer": "Dependent Personality Disorder",
-    "chapter": 1
-  },
-  {
-    "question": "Which personality disorder is characterized by preoccupation with orderliness, perfectionism, and control at the expense of flexibility?",
-    "options": [
-      "Obsessive-Compulsive Personality Disorder",
-      "Avoidant Personality Disorder",
-      "Paranoid Personality Disorder",
       "Antisocial Personality Disorder"
     ],
-    "answer": "Obsessive-Compulsive Personality Disorder",
-    "chapter": 1
-  },
-
-
-  // chapter 2 
-  {
-    "question": "Which eating disorder is defined by recurrent episodes of binge eating followed by inappropriate compensatory behaviors such as vomiting, occurring at least once a week for three months, with the individual often being normal weight or overweight?",
-    "options": [
-      "Bulimia Nervosa",
-      "Anorexia Nervosa",
-      "Binge Eating Disorder",
-      "Avoidant/Restrictive Food Intake Disorder"
-    ],
-    "answer": "Bulimia Nervosa",
-    "chapter": 2
-  },
-  {
-    "question": "Which eating disorder is characterized by restriction of energy intake leading to significantly low body weight, intense fear of gaining weight, and may include binge eating or purging behaviors, but the individual is always underweight?",
-    "options": [
-      "Anorexia Nervosa",
-      "Bulimia Nervosa",
-      "Binge Eating Disorder",
-      "Pica"
-    ],
-    "answer": "Anorexia Nervosa",
-    "chapter": 2
-  },
-  {
-    "question": "Which eating disorder involves recurrent episodes of binge eating without regular use of inappropriate compensatory behaviors, and is often associated with being overweight or obese?",
-    "options": [
-      "Binge Eating Disorder",
-      "Bulimia Nervosa",
-      "Anorexia Nervosa",
-      "Rumination Disorder"
-    ],
-    "answer": "Binge Eating Disorder",
-    "chapter": 2
-  },
-
-
-  // chapter 3 multipath
-
-  {
-    "question": "Which of the following is a biological factor in the multipath model for Antisocial Personality Disorder (ASPD)?",
-    "options": [
-      "Genetic heritability and reduced amygdala responsivity",
-      "Cognitive distortions and low self-esteem",
-      "Severe childhood maltreatment",
-      "Cultural values promoting individualism"
-    ],
-    "answer": "Genetic heritability and reduced amygdala responsivity",
-    "chapter": 3
-  },
-  {
-    "question": "A predatory strategy-focused cognitive style and learning deficits from punishment are examples of which multipath model factor in ASPD?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Psychological",
-    "chapter": 3
-  },
-  {
-    "question": "Severe childhood emotional and physical maltreatment and family history of criminal behavior are considered which type of factor in the multipath model for ASPD?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Social",
-    "chapter": 3
-  },
-  {
-    "question": "Gender differences and the influence of individualistic culture are examples of which multipath model factor in ASPD?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Sociocultural",
-    "chapter": 3
-  },
-  {
-    "question": "High emotional reactivity and changes in frontolimbic circuitry are biological factors most associated with which personality disorder?",
-    "options": [
-      "Antisocial Personality Disorder",
-      "Borderline Personality Disorder",
-      "Obsessive-Compulsive Personality Disorder",
-      "Narcissistic Personality Disorder"
-    ],
-    "answer": "Borderline Personality Disorder",
-    "chapter": 3
-  },
-  {
-    "question": "Which psychological factor is commonly seen in the multipath model for Borderline Personality Disorder?",
-    "options": [
-      "Perfectionism",
-      "Cognitive distortions with high levels of shame and low self-esteem",
-      "Predatory strategy-focused cognition",
-      "Learning deficits from punishment"
-    ],
-    "answer": "Cognitive distortions with high levels of shame and low self-esteem",
-    "chapter": 3
-  },
-  {
-    "question": "Early trauma and abuse are considered which type of factor in the multipath model for Borderline Personality Disorder?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Social",
-    "chapter": 3
-  },
-  {
-    "question": "Borderline Personality Disorder is diagnosed three times more often in women than men. This is an example of which multipath model factor?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Sociocultural",
-    "chapter": 3
-  },
-  {
-    "question": "Which of the following is a biological factor in the multipath model for eating disorders?",
-    "options": [
-      "Genetic predisposition and differences in appetite-regulating hormones",
-      "Parental attitudes and peer pressure",
-      "Perfectionism and distorted thinking",
-      "Media portrayal of beauty standards"
-    ],
-    "answer": "Genetic predisposition and differences in appetite-regulating hormones",
-    "chapter": 3
-  },
-  {
-    "question": "Perfectionism, impulsivity, and distorted all-or-nothing thinking are considered which factor in the multipath model for eating disorders?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Psychological",
-    "chapter": 3
-  },
-  {
-    "question": "Parental attitudes, peer pressure, and history of being teased are examples of which multipath model factor for eating disorders?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Social",
-    "chapter": 3
-  },
-  {
-    "question": "Media portrayal of beauty standards and underdiagnosis in certain demographics are examples of which factor in the multipath model for eating disorders?",
-    "options": [
-      "Biological",
-      "Psychological",
-      "Social",
-      "Sociocultural"
-    ],
-    "answer": "Sociocultural",
-    "chapter": 3
-  },
-
-
-  // chapter 4 identification clusters 
-  {
-    "question": "Which of the following personality disorders is classified under Cluster A?",
-    "options": [
-      "Paranoid Personality Disorder",
-      "Antisocial Personality Disorder",
-      "Avoidant Personality Disorder",
-      "Obsessive-Compulsive Personality Disorder"
-    ],
-    "answer": "Paranoid Personality Disorder",
-    "chapter": 4
-  },
-  {
-    "question": "Schizoid Personality Disorder belongs to which DSM-5 cluster?",
-    "options": [
-      "Cluster A (odd/eccentric)",
-      "Cluster B (dramatic/emotional/erratic)",
-      "Cluster C (anxious/fearful)",
-      "None of the above"
-    ],
-    "answer": "Cluster A (odd/eccentric)",
-    "chapter": 4
-  },
-  {
-    "question": "Which cluster includes Antisocial, Borderline, Histrionic, and Narcissistic Personality Disorders?",
-    "options": [
-      "Cluster A",
-      "Cluster B",
-      "Cluster C",
-      "Cluster D"
-    ],
-    "answer": "Cluster B",
-    "chapter": 4
-  },
-  {
-    "question": "A person with dramatic, emotional, or erratic behavior is most likely to have a personality disorder from which cluster?",
-    "options": [
-      "Cluster A",
-      "Cluster B",
-      "Cluster C",
-      "Cluster D"
-    ],
-    "answer": "Cluster B",
-    "chapter": 4
-  },
-  {
-    "question": "Which of the following is NOT a Cluster C personality disorder?",
-    "options": [
-      "Obsessive-Compulsive Personality Disorder",
-      "Dependent Personality Disorder",
-      "Avoidant Personality Disorder",
-      "Schizotypal Personality Disorder"
-    ],
     "answer": "Schizotypal Personality Disorder",
+    "chapter": 3
+  },
+  {
+    "question": "What distinguishes Substance Use Disorder (SUD) from intoxication and withdrawal syndromes?",
+    "options": [
+      "SUD involves chronic misuse/impairment; intoxication/withdrawal are acute states",
+      "SUD requires legal problems; intoxication/withdrawal focus on physical symptoms",
+      "Intoxication is voluntary; SUD is involuntary",
+      "Withdrawal lasts longer than SUD symptoms"
+    ],
+    "answer": "SUD involves chronic misuse/impairment; intoxication/withdrawal are acute states",
     "chapter": 4
   },
   {
-    "question": "Cluster C personality disorders are best described as:",
+    "question": "What are the four symptom categories in Substance Use Disorder (SUD) criteria?",
     "options": [
-      "Odd or eccentric",
-      "Dramatic, emotional, or erratic",
-      "Anxious or fearful",
-      "Psychotic"
+      "Impaired control, social impairment, risky use, tolerance",
+      "Withdrawal, cravings, blackouts, health issues",
+      "Mood swings, cognitive deficits, financial problems, legal troubles",
+      "Intoxication, dependence, remission, relapse"
     ],
-    "answer": "Anxious or fearful",
+    "answer": "Impaired control, social impairment, risky use, tolerance",
     "chapter": 4
   },
   {
-    "question": "Which cluster is characterized by odd or eccentric behaviors, including social withdrawal and distorted thinking?",
+    "question": "How is 'tolerance' different from 'withdrawal' in Substance Use Disorder?",
     "options": [
-      "Cluster A",
-      "Cluster B",
-      "Cluster C",
-      "Cluster D"
+      "Tolerance: needing more substance for same effect; Withdrawal: symptoms after stopping",
+      "Tolerance: psychological cravings; Withdrawal: physical dependence",
+      "Tolerance: legal problems; Withdrawal: social isolation",
+      "Tolerance: short-term effect; Withdrawal: chronic condition"
     ],
-    "answer": "Cluster A",
+    "answer": "Tolerance: needing more substance for same effect; Withdrawal: symptoms after stopping",
     "chapter": 4
   },
   {
-    "question": "Which of the following personality disorders is classified in Cluster B?",
+    "question": "What biological process underlies physiological dependence in Substance Use Disorder?",
     "options": [
-      "Borderline Personality Disorder",
-      "Dependent Personality Disorder",
-      "Schizoid Personality Disorder",
-      "Paranoid Personality Disorder"
+      "Brain adaptation altering neurotransmitter balance (e.g., GABA/glutamate from alcohol)",
+      "DNA mutation in reward pathways",
+      "Immune system suppression",
+      "Hormonal cascade disruption"
     ],
-    "answer": "Borderline Personality Disorder",
+    "answer": "Brain adaptation altering neurotransmitter balance (e.g., GABA/glutamate from alcohol)",
     "chapter": 4
   },
-  
-
-  // chapter 5 criteria symptoms 
-
   {
-    "question": "Which of the following is a general diagnostic criterion for personality disorders?",
+    "question": "Which substances have the HIGHEST addictive potential?",
     "options": [
-      "Symptoms must begin in childhood",
-      "Enduring pattern of behavior that deviates from cultural expectations",
-      "Exclusive presence of hallucinations",
-      "Complete lack of emotional response"
+      "Opioids, nicotine, methamphetamine",
+      "Cannabis, hallucinogens, inhalants",
+      "Alcohol, caffeine, prescription stimulants",
+      "Barbiturates, benzodiazepines, kratom"
     ],
-    "answer": "Enduring pattern of behavior that deviates from cultural expectations",
+    "answer": "Opioids, nicotine, methamphetamine",
+    "chapter": 4
+  },
+  {
+    "question": "Which substances are associated with the MOST overdose deaths?",
+    "options": [
+      "Opioids (fentanyl/heroin), cocaine, alcohol",
+      "Cannabis, LSD, psilocybin",
+      "MDMA, ketamine, prescription sedatives",
+      "Nicotine, caffeine, anabolic steroids"
+    ],
+    "answer": "Opioids (fentanyl/heroin), cocaine, alcohol",
+    "chapter": 4
+  },
+  {
+    "question": "How is mild Substance Use Disorder (SUD) distinguished from severe SUD?",
+    "options": [
+      "Mild: 2-3 symptoms; Severe: 6+ symptoms",
+      "Mild: no withdrawal; Severe: life-threatening withdrawal",
+      "Mild: social use; Severe: daily use",
+      "Mild: no cravings; Severe: intense cravings"
+    ],
+    "answer": "Mild: 2-3 symptoms; Severe: 6+ symptoms",
+    "chapter": 4
+  },
+  {
+    "question": "What are common short-term effects of substance use?",
+    "options": [
+      "Slurred speech, sedation, euphoria, increased energy",
+      "Osteoporosis, amenorrhea, cardiac issues",
+      "Diabetes, hypertension, tooth decay",
+      "Memory loss, organ failure, psychosis"
+    ],
+    "answer": "Slurred speech, sedation, euphoria, increased energy",
+    "chapter": 4
+  },
+  {
+    "question": "How do opioids typically cause fatal overdose?",
+    "options": [
+      "Respiratory depression leading to stopped breathing",
+      "Cardiac arrest from electrolyte imbalance",
+      "Seizures or stroke from hypertension",
+      "Liver toxicity or kidney failure"
+    ],
+    "answer": "Respiratory depression leading to stopped breathing",
+    "chapter": 4
+  },
+  {
+    "question": "How do heroin and fentanyl differ from morphine?",
+    "options": [
+      "Heroin/fentanyl are more potent and faster-acting",
+      "Morphine has higher addiction potential",
+      "Heroin/fentanyl cause less respiratory depression",
+      "Morphine is synthetic; heroin/fentanyl are natural"
+    ],
+    "answer": "Heroin/fentanyl are more potent and faster-acting",
+    "chapter": 4
+  },
+  {
+    "question": "How do cocaine and amphetamines affect the brain?",
+    "options": [
+      "Increase dopamine and norepinephrine activity",
+      "Block GABA receptors, causing overstimulation",
+      "Reduce serotonin reuptake, enhancing mood",
+      "Alter endocannabinoid system functioning"
+    ],
+    "answer": "Increase dopamine and norepinephrine activity",
+    "chapter": 4
+  },
+  {
+    "question": "What is the primary psychoactive ingredient in cannabis?",
+    "options": [
+      "THC (affecting CB1 receptors)",
+      "CBD (modulating serotonin)",
+      "Opiorphin (activating opioid receptors)",
+      "Myrcene (enhancing GABA)"
+    ],
+    "answer": "THC (affecting CB1 receptors)",
+    "chapter": 4
+  },
+  {
+    "question": "How has cannabis use changed in the last decade?",
+    "options": [
+      "Higher potency strains and increased legalization",
+      "Lower addiction rates and reduced availability",
+      "Decreased use among adolescents",
+      "Shift to synthetic alternatives"
+    ],
+    "answer": "Higher potency strains and increased legalization",
+    "chapter": 4
+  },
+  {
+    "question": "Which brain regions/neurotransmitters are central to addiction development?",
+    "options": [
+      "Dopamine pathways (VTA, nucleus accumbens, prefrontal cortex)",
+      "Serotonin receptors in the amygdala",
+      "GABAergic neurons in the cerebellum",
+      "Glutamate circuits in the hippocampus"
+    ],
+    "answer": "Dopamine pathways (VTA, nucleus accumbens, prefrontal cortex)",
+    "chapter": 4
+  },
+  {
+    "question": "What is the core principle of harm reduction in substance use treatment?",
+    "options": [
+      "Any reduction in use is valuable; patient autonomy is prioritized",
+      "Complete abstinence is the only acceptable goal",
+      "Medication-assisted treatment is prohibited",
+      "Treatment focuses solely on biological factors"
+    ],
+    "answer": "Any reduction in use is valuable; patient autonomy is prioritized",
+    "chapter": 4
+  },
+  {
+    "question": "How do internalizing disorders DIFFER from externalizing and neurodevelopmental disorders?",
+    "options": [
+      "Internalizing: inward-focused (anxiety/depression); Externalizing: outward-focused (anger/impulsivity); Neurodevelopmental: brain development impairments",
+      "Internalizing: genetic; Externalizing: environmental; Neurodevelopmental: infectious",
+      "Internalizing: acute; Externalizing: chronic; Neurodevelopmental: degenerative",
+      "Internalizing: medication-responsive; Externalizing: therapy-responsive; Neurodevelopmental: untreatable"
+    ],
+    "answer": "Internalizing: inward-focused (anxiety/depression); Externalizing: outward-focused (anger/impulsivity); Neurodevelopmental: brain development impairments",
     "chapter": 5
   },
   {
-    "question": "Which personality disorder is characterized by pervasive distrust and interpreting others' motives as malevolent?",
+    "question": "What does genetics reveal about autism and ADHD?",
     "options": [
-      "Schizoid PD",
-      "Paranoid PD",
-      "Avoidant PD",
-      "Borderline PD"
+      "Both are highly heritable (ADHD 70-80%; autism 80-90%)",
+      "Neither has genetic links; environment is primary",
+      "Only autism is heritable; ADHD is environmental",
+      "Heritability is higher in ADHD than autism"
     ],
-    "answer": "Paranoid PD",
+    "answer": "Both are highly heritable (ADHD 70-80%; autism 80-90%)",
     "chapter": 5
   },
   {
-    "question": "A patient displays grandiosity, a need for admiration, and a lack of empathy. Which Cluster B disorder is most likely?",
+    "question": "What defines the developmental psychopathology approach?",
     "options": [
-      "Antisocial PD",
-      "Narcissistic PD",
-      "Histrionic PD",
-      "Borderline PD"
+      "Studying how disorders evolve across lifespan via interconnected influences",
+      "Focusing solely on childhood trauma as the root cause",
+      "Prioritizing medication over therapy in development",
+      "Classifying disorders based only on biological markers"
     ],
-    "answer": "Narcissistic PD",
+    "answer": "Studying how disorders evolve across lifespan via interconnected influences",
     "chapter": 5
   },
   {
-    "question": "Which of the following is required for a diagnosis of Antisocial Personality Disorder?",
+    "question": "What is heterotypic continuity versus homotypic continuity?",
     "options": [
-      "Evidence of conduct disorder before age 15",
-      "Onset after age 30",
-      "Exclusive history of anxiety disorders",
-      "No history of impulsive behavior"
+      "Heterotypic: different symptoms over time; Homotypic: same symptoms persist",
+      "Heterotypic: diagnosis worsens; Homotypic: diagnosis improves",
+      "Heterotypic: genetic expression; Homotypic: environmental triggers",
+      "Heterotypic: childhood-limited; Homotypic: lifelong"
     ],
-    "answer": "Evidence of conduct disorder before age 15",
+    "answer": "Heterotypic: different symptoms over time; Homotypic: same symptoms persist",
     "chapter": 5
   },
-  {
-    "question": "Which personality disorder involves frantic efforts to avoid abandonment and unstable self-image?",
-    "options": [
-      "Dependent PD",
-      "Borderline PD",
-      "Obsessive-Compulsive PD",
-      "Schizotypal PD"
-    ],
-    "answer": "Borderline PD",
-    "chapter": 5
-  },
-  {
-    "question": "Which of the following is a key feature of Anorexia Nervosa?",
-    "options": [
-      "Binge eating without compensatory behaviors",
-      "Intense fear of gaining weight despite low body weight",
-      "Exclusive focus on muscle gain",
-      "No disturbance in self-perception"
-    ],
-    "answer": "Intense fear of gaining weight despite low body weight",
-    "chapter": 5
-  },
-  {
-    "question": "Bulimia Nervosa requires recurrent inappropriate compensatory behaviors to prevent weight gain, occurring at least:",
-    "options": [
-      "Once a week for 1 month",
-      "Twice a week for 2 months",
-      "Once a week for 3 months",
-      "Daily for 6 months"
-    ],
-    "answer": "Once a week for 3 months",
-    "chapter": 5
-  },
-  {
-    "question": "Which eating disorder is most associated with 'chipmunk cheeks' due to purging?",
-    "options": [
-      "Anorexia Nervosa (restricting type)",
-      "Bulimia Nervosa",
-      "Binge Eating Disorder",
-      "Avoidant/Restrictive Food Intake Disorder"
-    ],
-    "answer": "Bulimia Nervosa",
-    "chapter": 5
-  },
-  {
-    "question": "A patient with rigid perfectionism, preoccupation with rules, and reluctance to delegate tasks likely has:",
-    "options": [
-      "Obsessive-Compulsive Disorder (OCD)",
-      "Obsessive-Compulsive Personality Disorder (OCPD)",
-      "Avoidant Personality Disorder",
-      "Schizotypal PD"
-    ],
-    "answer": "Obsessive-Compulsive Personality Disorder (OCPD)",
-    "chapter": 5
-  },
-  {
-    "question": "Which Cluster A disorder involves peculiar thoughts, magical thinking, and odd behavior?",
-    "options": [
-      "Paranoid PD",
-      "Schizoid PD",
-      "Schizotypal PD",
-      "Avoidant PD"
-    ],
-    "answer": "Schizotypal PD",
-    "chapter": 5
-  },
-
-
-
-
-  // chapter 6 treatments 
-  {
-    "question": "What is the primary goal of the DBT consultation team?",
-    "options": [
-      "To diagnose personality disorders",
-      "Provide consultation to therapists and prevent burnout",
-      "Conduct group skills training sessions",
-      "Prescribe psychiatric medications"
-    ],
-    "answer": "Provide consultation to therapists and prevent burnout",
-    "chapter": 6
-  },
-  {
-    "question": "Which medication is a first-line treatment for Bulimia Nervosa?",
-    "options": [
-      "Vyvanse",
-      "Zyprexa",
-      "Fluoxetine (Prozac)",
-      "Topamax"
-    ],
-    "answer": "Fluoxetine (Prozac)",
-    "chapter": 6
-  },
-  {
-    "question": "Family-based treatment (FBT) is most commonly used for which population?",
-    "options": [
-      "Adults with Binge Eating Disorder",
-      "Adolescents with anorexia nervosa",
-      "Individuals with Borderline Personality Disorder",
-      "Patients with Schizotypal PD"
-    ],
-    "answer": "Adolescents with anorexia nervosa",
-    "chapter": 6
-  },
-  {
-    "question": "What is the typical duration of DBT phone coaching sessions?",
-    "options": [
-      "30-60 minutes",
-      "5-10 minutes",
-      "15-20 minutes",
-      "2-5 minutes"
-    ],
-    "answer": "5-10 minutes",
-    "chapter": 6
-  },
-  {
-    "question": "Which medication is FDA-approved for Binge Eating Disorder?",
-    "options": [
-      "Bupropion (Wellbutrin)",
-      "Vyvanse",
-      "Topiramate (Topamax)",
-      "Olanzapine (Zyprexa)"
-    ],
-    "answer": "Vyvanse",
-    "chapter": 6
-  },
-  {
-    "question": "Which of the following is NOT one of the four standard modes of DBT?",
-    "options": [
-      "Individual therapy",
-      "Group skills training",
-      "Pharmacotherapy",
-      "Phone coaching"
-    ],
-    "answer": "Pharmacotherapy",
-    "chapter": 6
-  },
-  {
-    "question": "What is the first target in DBT's hierarchical approach to treatment?",
-    "options": [
-      "Improving interpersonal relationships",
-      "Life-threatening behaviors",
-      "Therapy-interfering behaviors",
-      "Quality-of-life interfering behaviors"
-    ],
-    "answer": "Life-threatening behaviors",
-    "chapter": 6
-  },
-  {
-    "question": "CBT-E (Enhanced Cognitive Behavioral Therapy) primarily focuses on:",
-    "options": [
-      "Family dynamics",
-      "Psychological factors maintaining the eating disorder",
-      "Medication management",
-      "Trauma resolution"
-    ],
-    "answer": "Psychological factors maintaining the eating disorder",
-    "chapter": 6
-  },
-  {
-    "question": "Which medication is typically avoided in Anorexia Nervosa due to cardiovascular risks?",
-    "options": [
-      "Fluoxetine (Prozac)",
-      "Olanzapine (Zyprexa)",
-      "Bupropion (Wellbutrin)",
-      "Topiramate (Topamax)"
-    ],
-    "answer": "Bupropion (Wellbutrin)",
-    "chapter": 6
-  }
-
-
-
+ 
 
 ];
 
