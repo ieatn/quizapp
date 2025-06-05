@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import questions from './questions'; 
-// import questions from './questions2';
+import questions1 from './questions'; 
+import questions2 from './questions2';
 
 export default function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -8,6 +8,7 @@ export default function App() {
   const [showResults, setShowResults] = useState(false);
   const [selectedChapter, setSelectedChapter] = useState(null);
   const [selectedQuestions, setSelectedQuestions] = useState([]);
+  const [activeQuestionSet, setActiveQuestionSet] = useState(1); // 1 for questions1, 2 for questions2
 
   const handleChapterSelect = (chapter) => {
     setSelectedChapter(chapter);
@@ -15,9 +16,19 @@ export default function App() {
   };
 
   const getRandomQuestions = (num, chapter) => {
+    const questions = activeQuestionSet === 1 ? questions1 : questions2;
     const filteredQuestions = questions.filter(q => q.chapter === chapter);
     const shuffledQuestions = filteredQuestions.sort(() => 0.5 - Math.random());
     return shuffledQuestions.slice(0, num);
+  };
+
+  const toggleQuestionSet = () => {
+    setActiveQuestionSet(activeQuestionSet === 1 ? 2 : 1);
+    setSelectedChapter(null);
+    setSelectedQuestions([]);
+    setCurrentQuestionIndex(0);
+    setSelectedAnswers([]);
+    setShowResults(false);
   };
 
   const handleAnswer = (option) => {
@@ -68,11 +79,16 @@ export default function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <h1 className="text-2xl font-bold mb-4">Multiple Choice Quiz</h1>
+      <button
+        className="bg-purple-500 text-white p-2 rounded mb-4 hover:bg-purple-600"
+        onClick={toggleQuestionSet}
+      >
+        Switch to Quiz {activeQuestionSet === 1 ? '2' : '1'}
+      </button>
       {!selectedChapter ? (
         <div className="bg-white p-6 rounded shadow-md w-80">
           <h2 className="text-lg font-semibold mb-2">Select a Chapter</h2>
           {[1, 2, 3, 4, 5].map((chapter) => (
-          // {[11, 12, 13, 14, 15].map((chapter) => (
             <button
               key={chapter}
               className="bg-blue-500 text-white p-2 rounded mb-2 hover:bg-blue-600 w-full"
@@ -84,6 +100,18 @@ export default function App() {
         </div>
       ) : (
         <div className="bg-white p-6 rounded shadow-md w-80">
+          <button
+            className="bg-gray-500 text-white p-2 rounded mb-4 hover:bg-gray-600 w-full"
+            onClick={() => {
+              setSelectedChapter(null);
+              setSelectedQuestions([]);
+              setCurrentQuestionIndex(0);
+              setSelectedAnswers([]);
+              setShowResults(false);
+            }}
+          >
+            Back to Table of Contents
+          </button>
           {showResults ? (
             renderResults()
           ) : (

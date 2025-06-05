@@ -1,15 +1,224 @@
 const questions = [
-    {
-      "question": "What are the four primary modes of Dialectical Behavior Therapy (DBT)?",
-      "options": [
-        "Individual therapy, group skills training, phone coaching, therapist consultation",
-        "Medication management, exposure therapy, cognitive restructuring, family therapy",
-        "Psychoanalysis, mindfulness, emotion regulation, interpersonal effectiveness",
-        "Support groups, crisis intervention, journaling, relapse prevention"
-      ],
-      "answer": "Individual therapy, group skills training, phone coaching, therapist consultation",
-      "chapter": 1
-    },
+  {
+    "question": "Which cluster A personality disorder is characterized by magical thinking and ideas of reference?",
+    "options": [
+      "Paranoid",
+      "Schizoid",
+      "Schizotypal",
+      "Avoidant"
+    ],
+    "answer": "Schizotypal",
+    "chapter": 1
+  },
+  {
+    "question": "What percentage of individuals with borderline personality disorder have comorbid substance use disorders?",
+    "options": [
+      "30%",
+      "50%",
+      "67%",
+      "80%"
+    ],
+    "answer": "67%",
+    "chapter": 1
+  },
+  {
+    "question": "Which personality disorder is most associated with 'incel' behavior according to the notes?",
+    "options": [
+      "Antisocial",
+      "Borderline",
+      "Avoidant",
+      "Narcissistic"
+    ],
+    "answer": "Avoidant",
+    "chapter": 1
+  },
+  {
+    "question": "What is the core biological factor in Linehan's biosocial model of borderline personality disorder?",
+    "options": [
+      "Dopamine dysregulation",
+      "Emotion dysregulation",
+      "Serotonin deficiency",
+      "Amygdala hyperactivity"
+    ],
+    "answer": "Emotion dysregulation",
+    "chapter": 1
+  },
+  {
+    "question": "Which treatment modality specifically targets shame and low self-esteem in borderline personality disorder?",
+    "options": [
+      "Exposure therapy",
+      "Pharmacotherapy",
+      "DBT skills training",
+      "Psychodynamic therapy"
+    ],
+    "answer": "DBT skills training",
+    "chapter": 1
+  },
+  {
+    "question": "What physical complication is characteristic of bulimia nervosa due to purging?",
+    "options": [
+      "Brittle hair",
+      "Chipmunk cheeks",
+      "Irregular heartbeat",
+      "Osteoporosis"
+    ],
+    "answer": "Chipmunk cheeks",
+    "chapter": 2
+  },
+  {
+    "question": "Which medication is FDA-approved for binge eating disorder?",
+    "options": [
+      "Prozac",
+      "Zyprexa",
+      "Vyvanse",
+      "Wellbutrin"
+    ],
+    "answer": "Vyvanse",
+    "chapter": 2
+  },
+  {
+    "question": "What distinguishes anorexia nervosa binge-eating/purging type from bulimia nervosa?",
+    "options": [
+      "Frequency of episodes",
+      "Body weight status",
+      "Presence of tooth erosion",
+      "Comorbid depression"
+    ],
+    "answer": "Body weight status",
+    "chapter": 2
+  },
+  {
+    "question": "Which psychological factor is commonly addressed in CBT-E for eating disorders?",
+    "options": [
+      "Magical thinking",
+      "Perfectionism",
+      "Callous unemotional traits",
+      "Ideas of reference"
+    ],
+    "answer": "Perfectionism",
+    "chapter": 2
+  },
+  {
+    "question": "What BMI range indicates severe anorexia nervosa?",
+    "options": [
+      "BMI > 17",
+      "BMI > 16",
+      "BMI > 15",
+      "BMI < 15"
+    ],
+    "answer": "BMI > 15",
+    "chapter": 2
+  },
+  {
+    "question": "Which neurotransmitter system does alcohol primarily affect to produce intoxication?",
+    "options": [
+      "Dopamine and norepinephrine",
+      "GABA and glutamate",
+      "Serotonin and endorphins",
+      "Acetylcholine and cannabinoids"
+    ],
+    "answer": "GABA and glutamate",
+    "chapter": 3
+  },
+  {
+    "question": "What is a characteristic sign of opioid withdrawal?",
+    "options": [
+      "Pinpoint pupils",
+      "Excessive yawning",
+      "Delirium tremens",
+      "Chipmunk cheeks"
+    ],
+    "answer": "Excessive yawning",
+    "chapter": 3
+  },
+  {
+    "question": "Which harm reduction strategy specifically targets opioid users?",
+    "options": [
+      "Weekly unit limits",
+      "Naloxone distribution",
+      "Designated driver programs",
+      "THC reduction"
+    ],
+    "answer": "Naloxone distribution",
+    "chapter": 3
+  },
+  {
+    "question": "What mechanism explains amphetamine's effect as a stimulant?",
+    "options": [
+      "Blocks dopamine reuptake",
+      "Directly releases dopamine",
+      "Agonizes nicotinic receptors",
+      "Enhances GABA inhibition"
+    ],
+    "answer": "Directly releases dopamine",
+    "chapter": 3
+  },
+  {
+    "question": "Which substance's withdrawal can include delirium tremens requiring medical detox?",
+    "options": [
+      "Cannabis",
+      "Cocaine",
+      "Alcohol",
+      "Inhalants"
+    ],
+    "answer": "Alcohol",
+    "chapter": 3
+  },
+  {
+    "question": "What genetic contribution is noted for autism spectrum disorder?",
+    "options": [
+      "20%",
+      "50%",
+      "80%",
+      "100%"
+    ],
+    "answer": "80%",
+    "chapter": 4
+  },
+  {
+    "question": "Which disorder requires evidence of conduct disorder before age 15 for diagnosis at 18?",
+    "options": [
+      "Oppositional defiant disorder",
+      "ADHD",
+      "Antisocial personality disorder",
+      "Intermittent explosive disorder"
+    ],
+    "answer": "Antisocial personality disorder",
+    "chapter": 4
+  },
+  {
+    "question": "What is the primary focus of Applied Behavior Analysis (ABA) for autism?",
+    "options": [
+      "Medication management",
+      "Social skills training",
+      "Emotion regulation",
+      "Early behavioral intervention"
+    ],
+    "answer": "Early behavioral intervention",
+    "chapter": 4
+  },
+  {
+    "question": "Which neurodevelopmental disorder shows 3x higher prevalence in males?",
+    "options": [
+      "Conduct disorder",
+      "Binge eating disorder",
+      "ADHD",
+      "Borderline personality disorder"
+    ],
+    "answer": "ADHD",
+    "chapter": 4
+  },
+  {
+    "question": "What distinguishes conduct disorder from oppositional defiant disorder?",
+    "options": [
+      "Anger toward authority figures",
+      "Violation of others' basic rights",
+      "Presence of hyperactivity",
+      "Need for early intervention"
+    ],
+    "answer": "Violation of others' basic rights",
+    "chapter": 4
+  }
     
   ];
   
