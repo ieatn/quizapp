@@ -218,7 +218,118 @@ const questions = [
     ],
     "answer": "Violation of others' basic rights",
     "chapter": 4
-  }
+  },
+  {
+    "question": "Which biological factor is strongly associated with antisocial traits in children?",
+    "options": [
+      "Elevated serotonin levels",
+      "Reduced amygdala response to threat",
+      "Overactive prefrontal cortex",
+      "Enhanced dopamine sensitivity"
+    ],
+    "answer": "Reduced amygdala response to threat",
+    "chapter": 5
+  },
+  {
+    "question": "What neurobiological system is primarily implicated in borderline personality disorder?",
+    "options": [
+      "Frontolimbic circuitry",
+      "Cerebellar networks",
+      "Hippocampal pathways",
+      "Occipital lobe activation"
+    ],
+    "answer": "Frontolimbic circuitry",
+    "chapter": 5
+  },
+  {
+    "question": "Which hormonal system dysregulation is directly linked to eating disorders?",
+    "options": [
+      "Cortisol stress response",
+      "Ghrelin and leptin signaling",
+      "Thyroid hormone regulation",
+      "Insulin production"
+    ],
+    "answer": "Ghrelin and leptin signaling",
+    "chapter": 5
+  },
+  {
+    "question": "What brain structure's hyperactivity contributes to drug-seeking behavior in SUD?",
+    "options": [
+      "Nucleus accumbens/ventral striatum",
+      "Occipital cortex",
+      "Brainstem nuclei",
+      "Corpus callosum"
+    ],
+    "answer": "Nucleus accumbens/ventral striatum",
+    "chapter": 5
+  },
+  {
+    "question": "Which genetic contribution percentage is documented for ADHD?",
+    "options": [
+      "30%",
+      "50%",
+      "65%",
+      "80%"
+    ],
+    "answer": "80%",
+    "chapter": 5
+  },
+  {
+    "question": "What biological process is most affected by advanced paternal age in autism?",
+    "options": [
+      "Myelination patterns",
+      "De novo mutations",
+      "Neurotransmitter synthesis",
+      "Cerebral blood flow"
+    ],
+    "answer": "De novo mutations",
+    "chapter": 5
+  },
+  {
+    "question": "A 35-year-old male displays pervasive distrust, interprets colleagues' actions as malicious, and remains socially isolated despite evidence of their goodwill. Neuroimaging shows intact amygdala function but heightened prefrontal sensitivity to perceived threats. Explanation: This presentation illustrates Paranoid PD's core features of suspiciousness and misinterpretation of motives without the reduced amygdala response characteristic of ASPD.",
+    "options": [
+      "Schizotypal Personality Disorder",
+      "Antisocial Personality Disorder",
+      "Paranoid Personality Disorder",
+      "Borderline Personality Disorder"
+    ],
+    "answer": "Paranoid Personality Disorder",
+    "chapter": 5
+  },
+  {
+    "question": "A patient with BPD exhibits chronic emptiness and frantic abandonment fears. DBT treatment includes diary cards, chain analysis, and brief phone coaching between sessions. What is the PRIMARY purpose of phone coaching? Explanation: Phone coaching in DBT specifically targets skills generalization to natural environments while repairing therapist-client ruptures, distinct from other components' focus on behavioral analysis or crisis management.",
+    "options": [
+      "Conduct behavioral chain analysis",
+      "Generalize skills to daily life",
+      "Adjust medication regimens",
+      "Process childhood trauma"
+    ],
+    "answer": "Generalize skills to daily life",
+    "chapter": 5
+  },
+  {
+    "question": "A 28-year-old woman (BMI 15.8) uses laxatives after consuming two apples, fearing weight gain. Physical exam shows lanugo and bradycardia. She exhibits rigid thinking about food purity. Explanation: This case demonstrates AN binge/purge subtype with subjective binge episodes and compensatory behaviors, distinguished from BN by significantly low weight.",
+    "options": [
+      "Bulimia Nervosa",
+      "Anorexia Nervosa Restricting Type",
+      "Binge Eating Disorder",
+      "Anorexia Nervosa Binge-Eating/Purging Type"
+    ],
+    "answer": "Anorexia Nervosa Binge-Eating/Purging Type",
+    "chapter": 5
+  },
+  {
+    "question": "A construction worker needs escalating heroin doses to avoid withdrawal, continues use despite job losses, and spends 50% income on drugs. Urine screen shows opioids only. Explanation: This presentation meets 6+ criteria for severe Opioid Use Disorder (tolerance, withdrawal, time spent, cravings, social impairment, hazardous use), beyond acute intoxication/withdrawal.",
+    "options": [
+      "Opioid Intoxication",
+      "Opioid Withdrawal",
+      "Opioid Use Disorder, Severe",
+      "Stimulant Use Disorder"
+    ],
+    "answer": "Opioid Use Disorder, Severe",
+    "chapter": 5
+  },
+
     
   ];
   
