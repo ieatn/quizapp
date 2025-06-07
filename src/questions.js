@@ -1,359 +1,246 @@
 const questions = [
   {
-    "question": "What are the four primary modes of Dialectical Behavior Therapy (DBT)?",
+    "question": "A researcher wants to know if the average test score of a sample of students differs from the national average test score of 75. (Use a one-sample t-test because you are comparing a sample mean to a known population mean with an unknown population standard deviation.)",
     "options": [
-      "Psychoanalysis, mindfulness, emotion regulation, interpersonal effectiveness",
-      "Medication management, exposure therapy, cognitive restructuring, family therapy",
-      "Individual therapy, group skills training, phone coaching, therapist consultation",
-      "Support groups, crisis intervention, journaling, relapse prevention"
+      "One-sample z-test",
+      "One-sample t-test",
+      "Independent t-test",
+      "Dependent t-test"
     ],
-    "answer": "Individual therapy, group skills training, phone coaching, therapist consultation",
+    "answer": "One-sample t-test",
     "chapter": 1
   },
   {
-    "question": "Which four skills are core components of Dialectical Behavior Therapy (DBT)?",
+    "question": "A psychologist measures anxiety levels in participants before and after a mindfulness training session. (Use a dependent t-test because the same participants are measured twice, making the samples related.)",
     "options": [
-      "Tolerance, withdrawal management, harm reduction, motivational interviewing",
-      "Cognitive restructuring, exposure response prevention, assertiveness, relaxation",
-      "Self-monitoring, problem-solving, social skills, biofeedback",
-      "Mindfulness, emotion regulation, distress tolerance, interpersonal effectiveness"
+      "Independent t-test",
+      "Dependent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Mindfulness, emotion regulation, distress tolerance, interpersonal effectiveness",
+    "answer": "Dependent t-test",
     "chapter": 1
   },
   {
-    "question": "According to Linehan's Biosocial Theory, what combination causes borderline personality disorder?",
+    "question": "A study examines whether there is an association between gender (male, female) and preference for a new product (like, dislike). (Use a chi-square test of independence because both variables are categorical and you are testing for association.)",
     "options": [
-      "Genetic predisposition + childhood trauma",
-      "Biological emotion dysregulation + an invalidating environment",
-      "Cognitive distortions + maladaptive parenting",
-      "Neurotransmitter imbalances + social isolation"
+      "One-way ANOVA",
+      "Chi-square test of independence",
+      "Pearson r",
+      "One-sample t-test"
     ],
-    "answer": "Biological emotion dysregulation + an invalidating environment",
+    "answer": "Chi-square test of independence",
     "chapter": 1
   },
   {
-    "question": "What are the two diagnostic subtypes of anorexia nervosa?",
+    "question": "Researchers want to know if there is a relationship between hours of sleep and GPA among college students. Both variables are measured on a continuous scale. (Use Pearson r because both variables are continuous and you are looking for a linear relationship.)",
     "options": [
-      "Emotional eating type and avoidant type",
-      "Restricting type and binge-eating/purging type",
-      "Bulimic type and non-bulimic type",
-      "Compensatory type and non-compensatory type"
+      "Spearman r",
+      "Pearson r",
+      "One-way ANOVA",
+      "Goodness-of-fit chi-square"
     ],
-    "answer": "Restricting type and binge-eating/purging type",
-    "chapter": 2
+    "answer": "Pearson r",
+    "chapter": 1
   },
   {
-    "question": "Which physical consequences are commonly associated with bulimia nervosa?",
+    "question": "A nutritionist tests whether three different diets (low-carb, low-fat, Mediterranean) lead to different mean weight losses after 8 weeks. (Use one-way ANOVA because you are comparing the means of more than two independent groups.)",
     "options": [
-      "Osteoporosis, amenorrhea, cardiac issues",
-      "Electrolyte imbalance, tooth decay, esophageal damage",
-      "Liver failure, kidney stones, pancreatitis",
-      "Obesity, diabetes, hypertension"
+      "One-way ANOVA",
+      "Two-way ANOVA",
+      "Independent t-test",
+      "Dependent t-test"
     ],
-    "answer": "Electrolyte imbalance, tooth decay, esophageal damage",
-    "chapter": 2
+    "answer": "One-way ANOVA",
+    "chapter": 1
   },
   {
-    "question": "Which physical consequences are commonly associated with binge-eating disorder (BED)?",
+    "question": "A teacher wants to know if the distribution of letter grades (A, B, C, D, F) in her class matches the expected distribution based on school policy. (Use goodness-of-fit chi-square because you are comparing observed frequencies to expected frequencies for one categorical variable.)",
     "options": [
-      "Gastrointestinal paralysis, hypoglycemia, hair loss",
-      "Osteoporosis, amenorrhea, cardiac issues",
-      "Obesity, diabetes, hypertension",
-      "Electrolyte imbalance, tooth decay, esophageal damage"
+      "Goodness-of-fit chi-square",
+      "Chi-square test of independence",
+      "One-way ANOVA",
+      "Independent t-test"
     ],
-    "answer": "Obesity, diabetes, hypertension",
-    "chapter": 2
+    "answer": "Goodness-of-fit chi-square",
+    "chapter": 1
   },
   {
-    "question": "Which of the following is NOT a physical consequence that can develop in anorexia nervosa?",
+    "question": "Researchers want to know if the relationship between age group (child, adolescent, adult) and favorite ice cream flavor (chocolate, vanilla, strawberry) is significant. (Use chi-square test of independence because both variables are categorical and you are testing for association.)",
     "options": [
-      "Decreased bone density",
-      "All of the above are potential physical consequences",
-      "Weak tooth enamel",
-      "Swollen salivary glands"
+      "One-way ANOVA",
+      "Chi-square test of independence",
+      "Goodness-of-fit chi-square",
+      "Dependent t-test"
     ],
-    "answer": "All of the above are potential physical consequences",
-    "chapter": 2
+    "answer": "Chi-square test of independence",
+    "chapter": 1
   },
   {
-    "question": "What is the key difference between OCD and OCPD?",
+    "question": "A company tests whether employees’ job satisfaction scores differ by both department (HR, Sales, IT) and work location (Remote, On-site). (Use two-way ANOVA because you have two independent variables and one continuous dependent variable.)",
     "options": [
-      "OCPD responds to medication; OCD requires therapy",
-      "OCD involves intrusive thoughts/compulsions; OCPD involves rigid personality traits",
-      "OCD is genetic; OCPD is environmentally caused",
-      "OCPD includes psychosis; OCD does not"
+      "One-way ANOVA",
+      "Two-way ANOVA",
+      "Independent t-test",
+      "Pearson r"
     ],
-    "answer": "OCD involves intrusive thoughts/compulsions; OCPD involves rigid personality traits",
-    "chapter": 3
+    "answer": "Two-way ANOVA",
+    "chapter": 1
   },
   {
-    "question": "What special rule applies when diagnosing antisocial personality disorder?",
+    "question": "A researcher wants to see if there is a monotonic relationship between class rank in science and class rank in history for a group of students. (Use Spearman r because both variables are ordinal and you are testing for a monotonic association.)",
     "options": [
-      "Symptoms must persist for ≥5 years",
-      "Patient must be ≥18 years with a history of conduct disorder",
-      "Patient must exhibit callous-unemotional traits before age 10",
-      "Diagnosis requires comorbid substance use disorder"
+      "Pearson r",
+      "Spearman r",
+      "One-way ANOVA",
+      "Goodness-of-fit chi-square"
     ],
-    "answer": "Patient must be ≥18 years with a history of conduct disorder",
-    "chapter": 3
+    "answer": "Spearman r",
+    "chapter": 1
   },
   {
-    "question": "What do 'callous-unemotional' traits predict in antisocial behavior?",
+    "question": "A scientist wants to compare the mean blood pressure of patients before and after taking a new medication. (Use dependent t-test because the same individuals are measured before and after treatment.)",
     "options": [
-      "Lack of guilt, empathy, and remorse",
-      "High anxiety and emotional volatility",
-      "Impulsivity and risk-taking behaviors",
-      "Compulsive lying and manipulativeness"
+      "Independent t-test",
+      "Dependent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Lack of guilt, empathy, and remorse",
-    "chapter": 3
+    "answer": "Dependent t-test",
+    "chapter": 1
   },
   {
-    "question": "Which disorders are most comorbid with antisocial personality disorder?",
+    "question": "A college dean believed that car ownership among students leads to lower grades. To test this hypothesis, she obtained a random sample of student car owners and non-owners and looked up their GPAs. She assessed whether car owners and non-car owners differed in GPA. (Use independent t-test because you are comparing the means of two independent groups on a near-interval dependent variable.)",
     "options": [
-      "Depression and eating disorders",
-      "PTSD and generalized anxiety",
-      "Bipolar disorder and OCD",
-      "Substance use disorders and ADHD"
+      "Independent t-test",
+      "Dependent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Substance use disorders and ADHD",
-    "chapter": 3
+    "answer": "Independent t-test",
+    "chapter": 1
   },
   {
-    "question": "Which disorders are most comorbid with borderline personality disorder?",
+    "question": "The time from conception to birth in humans is approximately normally distributed, with a mean of 280.5 days and a standard deviation of 8.4 days. We obtain a random sample of college-educated women with newborns and assess whether this sample’s gestation lengths are similar to those in the general population. (Use one-sample z-test because you are comparing a sample mean to a known population mean and standard deviation.)",
     "options": [
-      "Schizophrenia, bipolar disorder, and OCD",
-      "PTSD, and eating disorders",
-      "ADHD, autism, and intellectual disability",
-      "Panic disorder, phobias, and somatic symptoms",
-      "Depression, PTSD, and eating disorders"
+      "One-sample z-test",
+      "One-sample t-test",
+      "Independent t-test",
+      "Chi-square goodness-of-fit"
     ],
-    "answer": "Depression, PTSD, and eating disorders",
-    "chapter": 3
+    "answer": "One-sample z-test",
+    "chapter": 1
   },
   {
-    "question": "Acute discomfort with close relationships, peculiar thoughts, and odd beliefs are key symptoms of which personality disorder?",
+    "question": "The effect of a curriculum designed to develop children’s critical viewing attitudes toward television programs was investigated. Eighteen second-grade children participated in the curriculum. A specially developed TV Comprehension Test was administered prior to the introduction of the curriculum and then again at its conclusion. The researchers assessed whether there was a difference between pretest and posttest scores. (Use dependent samples t-test because the same children are measured before and after the intervention.)",
     "options": [
-      "Obsessive-Compulsive Personality Disorder",
-      "Antisocial Personality Disorder",
-      "Schizotypal Personality Disorder",
-      "Histrionic Personality Disorder"
+      "Independent t-test",
+      "Dependent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Schizotypal Personality Disorder",
-    "chapter": 3
+    "answer": "Dependent t-test",
+    "chapter": 1
   },
   {
-    "question": "What distinguishes Substance Use Disorder (SUD) from intoxication and withdrawal syndromes?",
+    "question": "A sample of 100 first graders in two school districts were classified as poor readers, average readers, or accelerated readers. The State Superintendent assessed whether school district and reading level were related. (Use chi-square test of independence because you are testing the association between two categorical variables.)",
     "options": [
-      "Withdrawal lasts longer than SUD symptoms",
-      "Intoxication is voluntary; SUD is involuntary",
-      "SUD involves chronic misuse/impairment; intoxication/withdrawal are acute states",
-      "SUD requires legal problems; intoxication/withdrawal focus on physical symptoms"
+      "Chi-square test of independence",
+      "Chi-square goodness-of-fit",
+      "One-way ANOVA",
+      "Independent t-test"
     ],
-    "answer": "SUD involves chronic misuse/impairment; intoxication/withdrawal are acute states",
-    "chapter": 4
+    "answer": "Chi-square test of independence",
+    "chapter": 1
   },
   {
-    "question": "What are the four symptom categories in Substance Use Disorder (SUD) criteria?",
+    "question": "A researcher examined the effect of playing with educational toys for six months on motor skill development. Half of the participants were randomly assigned to the play group; the remaining half didn’t play with the toys. (Use independent samples t-test because you are comparing the means of two independent groups on a near-interval dependent variable.)",
     "options": [
-      "Withdrawal, cravings, blackouts, health issues",
-      "Impaired control, social impairment, risky use, tolerance",
-      "Intoxication, dependence, remission, relapse",
-      "Mood swings, cognitive deficits, financial problems, legal troubles"
+      "Independent t-test",
+      "Dependent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Impaired control, social impairment, risky use, tolerance",
-    "chapter": 4
+    "answer": "Independent t-test",
+    "chapter": 1
   },
   {
-    "question": "How is 'tolerance' different from 'withdrawal' in Substance Use Disorder?",
+    "question": "A researcher assessed whether room temperature (°F) and heart rate are related. (Use Pearson r because both variables are continuous and you are testing for a linear relationship.)",
     "options": [
-      "Tolerance: psychological cravings; Withdrawal: physical dependence",
-      "Tolerance: short-term effect; Withdrawal: chronic condition",
-      "Tolerance: needing more substance for same effect; Withdrawal: symptoms after stopping",
-      "Tolerance: legal problems; Withdrawal: social isolation"
+      "Pearson r",
+      "Spearman r",
+      "One-way ANOVA",
+      "Independent t-test"
     ],
-    "answer": "Tolerance: needing more substance for same effect; Withdrawal: symptoms after stopping",
-    "chapter": 4
+    "answer": "Pearson r",
+    "chapter": 1
   },
   {
-    "question": "What biological process underlies physiological dependence in Substance Use Disorder?",
+    "question": "To measure the effect of time of day on test performance, a multiple-choice general knowledge test was administered to a sample of 40 college students. Equal numbers of students were randomly assigned to take the test at 8AM, 11AM, 2PM, or 5PM. Scores were compared across the groups. (Use one-way ANOVA because you are comparing means across more than two independent groups.)",
     "options": [
-      "DNA mutation in reward pathways",
-      "Immune system suppression",
-      "Hormonal cascade disruption",
-      "Brain adaptation altering neurotransmitter balance (e.g., GABA/glutamate from alcohol)"
+      "One-way ANOVA",
+      "Two-way ANOVA",
+      "Independent t-test",
+      "Chi-square test of independence"
     ],
-    "answer": "Brain adaptation altering neurotransmitter balance (e.g., GABA/glutamate from alcohol)",
-    "chapter": 4
+    "answer": "One-way ANOVA",
+    "chapter": 1
   },
   {
-    "question": "Which substances have the HIGHEST addictive potential?",
+    "question": "An experiment was performed to determine the effects of sustained physical activity on hand steadiness. Participants’ hand steadiness was recorded for fifteen subjects prior to a physical activity and then again immediately following the activity. (Use dependent samples t-test because the same participants are measured before and after the intervention.)",
     "options": [
-      "Alcohol, caffeine, prescription stimulants",
-      "Opioids, nicotine, methamphetamine",
-      "Barbiturates, benzodiazepines, kratom",
-      "Cannabis, hallucinogens, inhalants"
+      "Dependent t-test",
+      "Independent t-test",
+      "One-way ANOVA",
+      "Pearson r"
     ],
-    "answer": "Opioids, nicotine, methamphetamine",
-    "chapter": 4
+    "answer": "Dependent t-test",
+    "chapter": 1
   },
   {
-    "question": "Which substances are associated with the MOST overdose deaths?",
+    "question": "Participants were randomly assigned to drive in a simulation car with one of five colors of warning lights on the instrument panel. Reaction time to the onset of a light was compared across the five colors of lights. (Use one-way ANOVA because you are comparing means across more than two independent groups.)",
     "options": [
-      "MDMA, ketamine, prescription sedatives",
-      "Cannabis, LSD, psilocybin",
-      "Nicotine, caffeine, anabolic steroids",
-      "Opioids (fentanyl/heroin), cocaine, alcohol"
+      "One-way ANOVA",
+      "Two-way ANOVA",
+      "Independent t-test",
+      "Chi-square test of independence"
     ],
-    "answer": "Opioids (fentanyl/heroin), cocaine, alcohol",
-    "chapter": 4
+    "answer": "One-way ANOVA",
+    "chapter": 1
   },
   {
-    "question": "How is mild Substance Use Disorder (SUD) distinguished from severe SUD?",
+    "question": "The same study design was used as in the previous question, but the researcher assessed whether light color AND gender were predictive of reaction time. (Use two-way ANOVA because you have two independent variables and one continuous dependent variable.)",
     "options": [
-      "Mild: no cravings; Severe: intense cravings",
-      "Mild: 2-3 symptoms; Severe: 6+ symptoms",
-      "Mild: social use; Severe: daily use",
-      "Mild: no withdrawal; Severe: life-threatening withdrawal"
+      "Two-way ANOVA",
+      "One-way ANOVA",
+      "Independent t-test",
+      "Pearson r"
     ],
-    "answer": "Mild: 2-3 symptoms; Severe: 6+ symptoms",
-    "chapter": 4
+    "answer": "Two-way ANOVA",
+    "chapter": 1
   },
   {
-    "question": "What are common short-term effects of substance use?",
+    "question": "A principal randomly selects 60 students from her school and asks them to identify their favorite colors (red, orange, yellow, green, blue, or purple). She wonders whether the colors are equally represented. (Use chi-square goodness-of-fit because you are comparing observed frequencies to expected frequencies for one categorical variable.)",
     "options": [
-      "Memory loss, organ failure, psychosis",
-      "Slurred speech, sedation, euphoria, increased energy",
-      "Diabetes, hypertension, tooth decay",
-      "Osteoporosis, amenorrhea, cardiac issues"
+      "Chi-square goodness-of-fit",
+      "Chi-square test of independence",
+      "One-way ANOVA",
+      "Independent t-test"
     ],
-    "answer": "Slurred speech, sedation, euphoria, increased energy",
-    "chapter": 4
+    "answer": "Chi-square goodness-of-fit",
+    "chapter": 1
   },
   {
-    "question": "How do opioids typically cause fatal overdose?",
+    "question": "Students in a study-abroad program were randomly assigned to study in Mexico, Spain, Venezuela, or Puerto Rico. The number of years of Spanish language courses taken by the students was also recorded (one, two, or three or more years). Upon returning, students took a test of Spanish language mastery. Investigators assessed whether country and years of study predicted language mastery. (Use two-way ANOVA because you have two independent variables and one continuous dependent variable.)",
     "options": [
-      "Cardiac arrest from electrolyte imbalance",
-      "Liver toxicity or kidney failure",
-      "Respiratory depression leading to stopped breathing",
-      "Seizures or stroke from hypertension"
+      "Two-way ANOVA",
+      "One-way ANOVA",
+      "Independent t-test",
+      "Pearson r"
     ],
-    "answer": "Respiratory depression leading to stopped breathing",
-    "chapter": 4
+    "answer": "Two-way ANOVA",
+    "chapter": 1
   },
-  {
-    "question": "How do heroin and fentanyl differ from morphine?",
-    "options": [
-      "Morphine is synthetic; heroin/fentanyl are natural",
-      "Heroin/fentanyl cause less respiratory depression",
-      "Morphine has higher addiction potential",
-      "Heroin/fentanyl are more potent and faster-acting"
-    ],
-    "answer": "Heroin/fentanyl are more potent and faster-acting",
-    "chapter": 4
-  },
-  {
-    "question": "How do cocaine and amphetamines affect the brain?",
-    "options": [
-      "Reduce serotonin reuptake, enhancing mood",
-      "Block GABA receptors, causing overstimulation",
-      "Alter endocannabinoid system functioning",
-      "Increase dopamine and norepinephrine activity"
-    ],
-    "answer": "Increase dopamine and norepinephrine activity",
-    "chapter": 4
-  },
-  {
-    "question": "What is the primary psychoactive ingredient in cannabis?",
-    "options": [
-      "CBD (modulating serotonin)",
-      "Opiorphin (activating opioid receptors)",
-      "Myrcene (enhancing GABA)",
-      "THC (affecting CB1 receptors)"
-    ],
-    "answer": "THC (affecting CB1 receptors)",
-    "chapter": 4
-  },
-  {
-    "question": "How has cannabis use changed in the last decade?",
-    "options": [
-      "Lower addiction rates and reduced availability",
-      "Shift to synthetic alternatives",
-      "Decreased use among adolescents",
-      "Higher potency strains and increased legalization"
-    ],
-    "answer": "Higher potency strains and increased legalization",
-    "chapter": 4
-  },
-  {
-    "question": "Which brain regions/neurotransmitters are central to addiction development?",
-    "options": [
-      "Glutamate circuits in the hippocampus",
-      "GABAergic neurons in the cerebellum",
-      "Dopamine pathways (VTA, nucleus accumbens, prefrontal cortex)",
-      "Serotonin receptors in the amygdala"
-    ],
-    "answer": "Dopamine pathways (VTA, nucleus accumbens, prefrontal cortex)",
-    "chapter": 4
-  },
-  {
-    "question": "What is the core principle of harm reduction in substance use treatment?",
-    "options": [
-      "Complete abstinence is the only acceptable goal",
-      "Medication-assisted treatment is prohibited",
-      "Any reduction in use is valuable; patient autonomy is prioritized",
-      "Treatment focuses solely on biological factors"
-    ],
-    "answer": "Any reduction in use is valuable; patient autonomy is prioritized",
-    "chapter": 4
-  },
-  {
-    "question": "How do internalizing disorders DIFFER from externalizing and neurodevelopmental disorders?",
-    "options": [
-      "Internalizing: acute; Externalizing: chronic; Neurodevelopmental: degenerative",
-      "Internalizing: genetic; Externalizing: environmental; Neurodevelopmental: infectious",
-      "Internalizing: inward-focused (anxiety/depression); Externalizing: outward-focused (anger/impulsivity); Neurodevelopmental: brain development impairments",
-      "Internalizing: medication-responsive; Externalizing: therapy-responsive; Neurodevelopmental: untreatable"
-    ],
-    "answer": "Internalizing: inward-focused (anxiety/depression); Externalizing: outward-focused (anger/impulsivity); Neurodevelopmental: brain development impairments",
-    "chapter": 5
-  },
-  {
-    "question": "What does genetics reveal about autism and ADHD?",
-    "options": [
-      "Heritability is higher in ADHD than autism",
-      "Neither has genetic links; environment is primary",
-      "Both are highly heritable (ADHD 70-80%; autism 80-90%)",
-      "Only autism is heritable; ADHD is environmental"
-    ],
-    "answer": "Both are highly heritable (ADHD 70-80%; autism 80-90%)",
-    "chapter": 5
-  },
-  {
-    "question": "What defines the developmental psychopathology approach?",
-    "options": [
-      "Focusing solely on childhood trauma as the root cause",
-      "Studying how disorders evolve across lifespan via interconnected influences",
-      "Classifying disorders based only on biological markers",
-      "Prioritizing medication over therapy in development"
-    ],
-    "answer": "Studying how disorders evolve across lifespan via interconnected influences",
-    "chapter": 5
-  },
-  {
-    "question": "What is heterotypic continuity versus homotypic continuity?",
-    "options": [
-      "Heterotypic: genetic expression; Homotypic: environmental triggers",
-      "Heterotypic: diagnosis worsens; Homotypic: diagnosis improves",
-      "Heterotypic: different symptoms over time; Homotypic: same symptoms persist",
-      "Heterotypic: childhood-limited; Homotypic: lifelong"
-    ],
-    "answer": "Heterotypic: different symptoms over time; Homotypic: same symptoms persist",
-    "chapter": 5
-  }
- 
-
 ];
 
 export default questions;

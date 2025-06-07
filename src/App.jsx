@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import questions1 from './questions'; 
-import questions2 from './questions2';
+// import questions2 from './questions2';
 
 export default function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -79,16 +79,16 @@ export default function App() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <h1 className="text-2xl font-bold mb-4">Multiple Choice Quiz</h1>
-      <button
+      {/* <button
         className="bg-purple-500 text-white p-2 rounded mb-4 hover:bg-purple-600"
         onClick={toggleQuestionSet}
       >
         Switch to Quiz {activeQuestionSet === 1 ? '2' : '1'}
-      </button>
+      </button> */}
       {!selectedChapter ? (
         <div className="bg-white p-6 rounded shadow-md w-80">
           <h2 className="text-lg font-semibold mb-2">Select a Chapter</h2>
-          {[1, 2, 3, 4, 5].map((chapter) => (
+          {[1].map((chapter) => (
             <button
               key={chapter}
               className="bg-blue-500 text-white p-2 rounded mb-2 hover:bg-blue-600 w-full"
